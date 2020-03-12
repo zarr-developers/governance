@@ -1,7 +1,7 @@
 # Abstract
 
 The purpose of this document is to formalize the governance process used by the
-`napari` project, to clarify how decisions are made and how the various
+`zarr` project, to clarify how decisions are made and how the various
 elements of our community interact.
 
 This is a consensus-based community project. Anyone with an interest in the
@@ -14,7 +14,7 @@ resolved.
 
 ## The Community
 
-The napari community consists of anyone using or working with the project
+The zarr community consists of anyone using or working with the project
 in any way.
 
 ## Contributors
@@ -22,19 +22,12 @@ in any way.
 A community member can become a contributor by interacting directly with the
 project in concrete ways, such as:
 
-- proposing a change to the code via a GitHub
-  [GitHub pull request](https://github.com/napari/napari/pulls);
-- reporting issues on our
-  [GitHub issues page](https://github.com/napari/napari/issues);
-- proposing a change to the documentation, or
-  [tutorials](https://github.com/napari/napari-tutorials) via a
-  GitHub pull request;
-- discussing the design of the napari or its tutorials on in existing
-  [issues](https://github.com/napari/napari/issues) and
-  [pull requests](https://github.com/napari/napari/pulls);
-- discussing examples or use cases on the
-  [image.sc forum](https://forum.image.sc/tags/napari) under the #napari tag; or
-- reviewing [open pull requests](https://github.com/napari/napari/pulls)
+- proposing, discussing, or reviewing a change to the code, documentation, or specification
+  via a GitHub pull request to any https://github.com/zarr-developers repository;
+- reporting a GitHub issue
+  to any https://github.com/zarr-developers repository;
+- discussing examples or usage issues under the #zarr tag on StackOverflow 
+  (like "How do I do X in zarr?").
 
 among other possibilities. Any community member can become a contributor, and
 all are encouraged to do so. By contributing to the project, community members
@@ -46,13 +39,13 @@ Contributors are encouraged to read the [contributing guide](CONTRIBUTING.md).
 
 Core developers are community members that have demonstrated continued
 commitment to the project through ongoing contributions. They
-have shown they can be trusted to maintain napari with care. Becoming a
+have shown they can be trusted to maintain zarr with care. Becoming a
 core developer allows contributors to merge approved pull requests, cast votes
 for and against merging a pull-request, and be involved in deciding major
 changes to the API, and thereby more easily carry on with their project related
-activities. Core developers appear as organization members on the napari
-[GitHub organization](https://github.com/orgs/napari/people) and are on our
-[@napari/core-devs](https://github.com/orgs/napari/teams/core-devs) GitHub team. Core
+activities. Core developers appear as organization members on the zarr
+[GitHub organization](https://github.com/orgs/zarr-developers/people) and are on our
+[@zarr-developers/core-devs](https://github.com/orgs/zarr-developers/teams/core-devs) GitHub team. Core
 developers are expected to review code contributions while adhering to the
 [core developer guide](CORE_DEV_GUIDE.md). New core developers can be nominated
 by any existing core developer, and for details on that process see our core
@@ -71,19 +64,23 @@ long experience with both the project and the larger ecosystem. When the core
 developer community (including the SC members) fails to reach such a consensus
 in a reasonable timeframe, the SC is the entity that resolves the issue.
 
-Members of the steering council also have the "owner" role within the [napari GitHub organization](https://github.com/napari/)
-and are ultimately responsible for managing the napari GitHub account, the [@napari_imaging](https://twitter.com/napari_imaging)
-twitter account, the [napari website](http://napari.org), and other similar napari owned resources.
+Members of the steering council also have the "owner" role within the [zarr-developersGitHub organization](https://github.com/zarr-developers/)
+and are ultimately responsible for managing the zarr-developers GitHub account, the [@zarr_dev](https://twitter.com/zarr_dev)
+twitter account, the [zarr website]( https://zarr-developers.github.io), and other similar zarr owned resources.
 
-The steering council is currently fixed in size to three members. This number may be increased in
+The steering council is currently fixed in size to five members. This number may be increased in
 the future, but will always be an odd number to ensure a simple majority vote outcome
-is always possible. The initial steering council of napari consists of
+is always possible. The initial steering council of zarr consists of
 
-* [Juan Nunez-Iglesias](https://github.com/jni)
+* [Ryan Abernathy](https://github.com/rabernat)
 
-* [Loic Royer](https://github.com/royerloic)
+* [John Kirkham](https://github.com/jakirkham)
 
-* [Nicholas Sofroniew](https://github.com/sofroniewn)
+* [Alistair Miles](https://github.com/alimanfoo)
+
+* [Josh Moore](https://github.com/joshmoore)
+
+* [Ryan Williams](https://github.com/ryan-williams)
 
 The SC membership is revisited every January. SC members who do
 not actively engage with the SC duties are expected to resign. New members are
@@ -93,22 +90,23 @@ nomination will result in discussion that cannot take more than a month and
 then admission to the SC by consensus. During that time deadlocked votes of the SC will
 be postponed until the new member has joined and another vote can be held.
 
-The napari steering council may be contacted at `napari-steering-council@googlegroups.com`.
-Or via the [@napari/steering-council](https://github.com/orgs/napari/teams/steering-council) GitHub team.
+The zarr steering council may be contacted at `zarr-steering-council@googlegroups.com`.
+Or via the [@zarr-developers/steering-council](https://github.com/orgs/zarr-developers/teams/steering-council) GitHub team.
 
 # Decision Making Process
 
 Decisions about the future of the project are made through discussion with all
 members of the community. All non-sensitive project management discussion takes
-place on the [issue tracker](https://github.com/napari/napari/issues) and project
-[zulip](https://napari.zulipchat.com/) community chat channel. Occasionally,
-sensitive discussion may occur on a private core developer mailing list
-`napari-core-devs@googlegroups.com` or private chat channel.
+place on the issue trackers of the https://github.com/zarr-developers repositories.
+Occasionally, sensitive discussion may occur on a private core developer mailing list
+`zarr-core-devs@googlegroups.com` or private chat channel.
+
+TBD: Alternative is via https://github.com/orgs/zarr-developers/teams/core-devs
 
 Decisions should be made in accordance with the [mission and values](MISSION_AND_VALUES.md)
-of the napari project.
+of the zarr project.
 
-napari uses a “consensus seeking” process for making decisions. The group
+zarr uses a “consensus seeking” process for making decisions. The group
 tries to find a resolution that has no open objections among core developers.
 Core developers are expected to distinguish between fundamental objections to a
 proposal and minor perceived flaws that they can live with, and not hold up the
@@ -135,11 +133,11 @@ are made according to the following rules:
   merging for others to weigh in on the pull request in its final state.
 
 - **Changes to the API principles** require a dedicated issue on our
-  [issue tracker](https://github.com/napari/napari/issues) and follow the
-  decision-making process outlined above.
+  [issue tracker](https://github.com/zarr-developers/zarr-python/issues) and follow the
+  decision-making process outlined above. (TBD: unclear if this repo suffices)
 
 - **Changes to this governance model or our mission, vision, and values**
-  require a  dedicated issue on our [issue tracker](https://github.com/napari/napari/issues)
+  require a  dedicated issue on our [issue tracker](https://github.com/zarr-developers/governance/issues)
   and follow the decision-making process outlined above,
   *unless* there is unanimous agreement from core developers on the change in
   which case it can move forward faster.
