@@ -33,7 +33,8 @@ among other possibilities. Any community member can become a contributor, and
 all are encouraged to do so. By contributing to the project, community members
 can directly help to shape its future.
 
-Contributors are encouraged to read the [contributing guide](CONTRIBUTING.md).
+Contributors are encouraged to read the [contributing guide](http://zarr.readthedocs.io/en/stable/contributing.html)
+for information about contributing to Zarr.
 
 ## Core developers
 
