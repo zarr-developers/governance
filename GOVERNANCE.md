@@ -64,7 +64,7 @@ long experience with both the project and the larger ecosystem. When the core
 developer community (including the SC members) fails to reach such a consensus
 in a reasonable timeframe, the SC is the entity that resolves the issue.
 
-Members of the steering council also have the "owner" role within the [zarr-developersGitHub organization](https://github.com/zarr-developers/)
+Members of the steering council also have the "owner" role within the [zarr-developers GitHub organization](https://github.com/zarr-developers/)
 and are ultimately responsible for managing the zarr-developers GitHub account, the [@zarr_dev](https://twitter.com/zarr_dev)
 twitter account, the [zarr website]( https://zarr-developers.github.io), and other similar zarr owned resources.
 
