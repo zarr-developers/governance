@@ -14,7 +14,7 @@ resolved.
 
 ## The Community
 
-The zarr community consists of anyone using or working with the project
+The Zarr community consists of anyone using or working with the project
 in any way.
 
 ## Contributors
