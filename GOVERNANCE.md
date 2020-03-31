@@ -73,7 +73,7 @@ The steering council is currently fixed in size to five members. This number may
 the future, but will always be an odd number to ensure a simple majority vote outcome
 is always possible. The initial steering council of zarr consists of
 
-* [Ryan Abernathy](https://github.com/rabernat)
+* [Ryan Abernathey](https://github.com/rabernat)
 
 * [John Kirkham](https://github.com/jakirkham)
 
