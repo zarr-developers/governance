@@ -6,7 +6,7 @@ to join us.  Thank you for your numerous contributions to the project
 so far.
 
 You can see a list of all the current core developers on our
-[@napari/core-devs](https://github.com/orgs/napari/teams/core-devs)
+[@zarr-developers/core-devs](https://github.com/orgs/zarr-developers/teams/core-devs)
 GitHub team. You should now be on that list too.
 
 This document offers guidelines for your new role.  First and
@@ -57,7 +57,7 @@ constructive criticism on ideas and implementations, and remind
 yourself of how it felt when your own work was being evaluated as a
 novice.
 
-`napari` strongly values mentorship in code review.  New users
+`zarr` strongly values mentorship in code review.  New users
 often need more handholding, having little to no git
 experience. Repeat yourself liberally, and, if you don’t recognize a
 contributor, point them to our development guide, or other GitHub
@@ -69,22 +69,22 @@ an abandoned pull request.
 
 When reviewing, focus on the following:
 
-1. **Usability and generality:** `napari` is a GUI application that strives to be accessible
+1. **Usability and generality:** `zarr` is a GUI application that strives to be accessible
 to both coding and non-coding users, and new features should ultimately be
-accessible to everyone using the app. `napari` targets the scientific user
+accessible to everyone using the app. `zarr` targets the scientific user
 community broadly, and core features should be domain-agnostic and general purpose.
 Custom functionality is meant to be provided through our plugin ecosystem. If in doubt,
 consult back with our [mission and values](MISSION_AND_VALUES.md).
 
-2. **Performance and benchmarks:** As `napari` targets scientific applications that often involve
-large multidimensional datasets, high performance is a key value of `napari`. While
+2. **Performance and benchmarks:** As `zarr` targets scientific applications that often involve
+large multidimensional datasets, high performance is a key value of `zarr`. While
 every new feature won't scale equally to all sizes of data, keeping in mind performance
 and our [benchmarks](BENCHMARKS.md) during a review may be important, and you may
 need to ask for benchmarks to be run and reported or new benchmarks to be added.
 
 3. **APIs and stability:** Coding users and plugin developers will make
 extensive use of our APIs. The foundation of a healthy plugin ecosystem will be
-a fully capable and stable set of APIs, so as `napari` matures it will
+a fully capable and stable set of APIs, so as `zarr` matures it will
 very important to ensure our APIs are stable. For now, while the project is still
 in an earlier stage, spending the extra time to consider names of public facing
 variables and methods, along side function signatures, could save us considerable
@@ -95,7 +95,7 @@ version numbers `0.x` and do not have a deprecation policy, but we will work to 
 strings following [PEP257](https://www.python.org/dev/peps/pep-0257/) and the
 [NumPy documentation guide](https://docs.scipy.org/doc/numpy/docs/howto_document.html).
 For any major new features, accompanying changes should be made to our
-[tutorials repository](https://github.com/napari/napari-tutorials), that not only
+[tutorials repository](https://github.com/zarr-developers/zarr-developers-tutorials), that not only
 illustrates the new feature, but explains it.
 
 5. **Implementations and algorithms:** You should understand the code being modified
