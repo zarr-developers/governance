@@ -66,7 +66,7 @@ an abandoned pull request.
 
 When reviewing, focus on the following:
 
-1. **Usability and generality:** `Zarr` is a GUI application that strives to be accessible
+1. **Usability and generality:** `Zarr` is a library that strives to be accessible
 to both coding and non-coding users, and new features should ultimately be
 accessible to everyone using the app. `Zarr` targets the scientific user
 community broadly, and core features should be domain-agnostic and general purpose.
@@ -75,17 +75,13 @@ Custom functionality is meant to be provided through our plugin ecosystem.
 2. **Performance and benchmarks:** As `Zarr` targets scientific applications that often involve
 large multidimensional datasets, high performance is a key value of `Zarr`. While
 every new feature won't scale equally to all sizes of data, keeping in mind performance
-and our [benchmarks](BENCHMARKS.md) during a review may be important, and you may
+during a review may be important, and you may
 need to ask for benchmarks to be run and reported or new benchmarks to be added.
 
 3. **APIs and stability:** Coding users and plugin developers will make
-extensive use of our APIs. The foundation of a healthy plugin ecosystem will be
-a fully capable and stable set of APIs, so as `Zarr` matures it will
-very important to ensure our APIs are stable. For now, while the project is still
-in an earlier stage, spending the extra time to consider names of public facing
-variables and methods, along side function signatures, could save us considerable
-trouble in the future. Right now we are still making breaking changes with minor
-version numbers `0.x` and do not have a deprecation policy, but we will work to add one soon.
+extensive use of our APIs. The foundation of a healthy ecosystem will be
+a fully capable and stable set of APIs, so it is important 
+important to ensure our APIs are stable.
 
 4. **Documentation and tutorials:** All new methods should have appropriate doc
 strings following [PEP257](https://www.python.org/dev/peps/pep-0257/) and the
@@ -142,7 +138,6 @@ resources such as:
 -  Our [contributor guide](https://github.com/zarr-developers/.github/blob/master/CONTRIBUTING.md).
 -  Our [code of conduct](https://github.com/zarr-developers/.github/blob/master/CODE_OF_CONDUCT.md).
 -  Our [governance](GOVERNANCE.md).
--  Our [benchmarking guide](BENCHMARKS.md).
 -  [PEP8](https://www.python.org/dev/peps/pep-0008/) for Python style.
 -  [PEP257](https://www.python.org/dev/peps/pep-0257/) and the
    [NumPy documentation guide](https://docs.scipy.org/doc/numpy/docs/howto_document.html)
@@ -150,9 +145,7 @@ resources such as:
 -  [`pre-commit`](https://pre-commit.com) hooks for autoformatting.
 -  [`black`](https://github.com/psf/black) autoformatting.
 -  [`flake8`](https://github.com/PyCQA/flake8) linting.
--  [#napari on image.sc](https://forum.image.sc/tags/napari).
--  [#napari](https://twitter.com/search?q=%23napari&f=live) and [@napari_imaging](https://twitter.com/napari_imaging) on twitter.
--  [napari zulip](https://napari.zulipchat.com/) community chat channel.
+-  [#zarr_dev](https://twitter.com/search?q=%23zarr_dev&f=live) on twitter.
 
 You are not required to monitor the social resources.
 
@@ -160,9 +153,8 @@ Where possible we prefer to point people towards asynchronous forms of communica
 like forum posts and github issues instead of realtime chat options as they are easier
 for a global community to consume.
 
-We also have a private mailing list for core developers
-`napari-core-devs@googlegroups.com` which is sparingly used for discussions
-that are required to be private, such as voting on new core members.
+We also make use of private messages via the GitHub team (@zarr-developers/core-devs)
+sparingly for discussions that are required to be private, such as voting on new core members.
 
 ## Inviting New Core Members
 
