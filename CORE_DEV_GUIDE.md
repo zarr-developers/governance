@@ -54,7 +54,7 @@ constructive criticism on ideas and implementations, and remind
 yourself of how it felt when your own work was being evaluated as a
 novice.
 
-`zarr` strongly values mentorship in code review.  New users
+`Zarr` strongly values mentorship in code review.  New users
 often need more handholding, having little to no git
 experience. Repeat yourself liberally, and, if you don’t recognize a
 contributor, point them to our development guide, or other GitHub
@@ -66,21 +66,21 @@ an abandoned pull request.
 
 When reviewing, focus on the following:
 
-1. **Usability and generality:** `zarr` is a GUI application that strives to be accessible
+1. **Usability and generality:** `Zarr` is a GUI application that strives to be accessible
 to both coding and non-coding users, and new features should ultimately be
-accessible to everyone using the app. `zarr` targets the scientific user
+accessible to everyone using the app. `Zarr` targets the scientific user
 community broadly, and core features should be domain-agnostic and general purpose.
 Custom functionality is meant to be provided through our plugin ecosystem.
 
-2. **Performance and benchmarks:** As `zarr` targets scientific applications that often involve
-large multidimensional datasets, high performance is a key value of `zarr`. While
+2. **Performance and benchmarks:** As `Zarr` targets scientific applications that often involve
+large multidimensional datasets, high performance is a key value of `Zarr`. While
 every new feature won't scale equally to all sizes of data, keeping in mind performance
 and our [benchmarks](BENCHMARKS.md) during a review may be important, and you may
 need to ask for benchmarks to be run and reported or new benchmarks to be added.
 
 3. **APIs and stability:** Coding users and plugin developers will make
 extensive use of our APIs. The foundation of a healthy plugin ecosystem will be
-a fully capable and stable set of APIs, so as `zarr` matures it will
+a fully capable and stable set of APIs, so as `Zarr` matures it will
 very important to ensure our APIs are stable. For now, while the project is still
 in an earlier stage, spending the extra time to consider names of public facing
 variables and methods, along side function signatures, could save us considerable

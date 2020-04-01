@@ -1,7 +1,7 @@
 # Abstract
 
 The purpose of this document is to formalize the governance process used by the
-`zarr` project, to clarify how decisions are made and how the various
+`Zarr` project, to clarify how decisions are made and how the various
 elements of our community interact.
 
 This is a consensus-based community project. Anyone with an interest in the
@@ -27,7 +27,7 @@ project in concrete ways, such as:
 - reporting a GitHub issue
   to any https://github.com/zarr-developers repository;
 - discussing examples or usage issues under the #zarr tag on StackOverflow 
-  (like "How do I do X in zarr?").
+  (like "How do I do X in Zarr?").
 
 among other possibilities. Any community member can become a contributor, and
 all are encouraged to do so. By contributing to the project, community members
@@ -40,11 +40,11 @@ for information about contributing to Zarr.
 
 Core developers are community members that have demonstrated continued
 commitment to the project through ongoing contributions. They
-have shown they can be trusted to maintain zarr with care. Becoming a
+have shown they can be trusted to maintain Zarr with care. Becoming a
 core developer allows contributors to merge approved pull requests, cast votes
 for and against merging a pull-request, and be involved in deciding major
 changes to the API, and thereby more easily carry on with their project related
-activities. Core developers appear as organization members on the zarr
+activities. Core developers appear as organization members on the Zarr
 [GitHub organization](https://github.com/orgs/zarr-developers/people) and are on our
 [@zarr-developers/core-devs](https://github.com/orgs/zarr-developers/teams/core-devs) GitHub team. Core
 developers are expected to review code contributions while adhering to the
@@ -67,11 +67,11 @@ in a reasonable timeframe, the SC is the entity that resolves the issue.
 
 Members of the steering council also have the "owner" role within the [zarr-developers GitHub organization](https://github.com/zarr-developers/)
 and are ultimately responsible for managing the [zarr-developers](https://github.com/zarr-developers) GitHub account, the [@zarr_dev](https://twitter.com/zarr_dev)
-twitter account, the [zarr website]( https://zarr-developers.github.io), and other similar zarr owned resources.
+twitter account, the [Zarr website]( https://zarr-developers.github.io), and other similar Zarr-owned resources.
 
 The steering council is currently fixed in size to five members. This number may be increased in
 the future, but will always be an odd number to ensure a simple majority vote outcome
-is always possible. The initial steering council of zarr consists of
+is always possible. The initial steering council of Zarr consists of
 
 * [Ryan Abernathey](https://github.com/rabernat)
 
@@ -91,7 +91,7 @@ nomination will result in discussion that cannot take more than a month and
 then admission to the SC by consensus. During that time deadlocked votes of the SC will
 be postponed until the new member has joined and another vote can be held.
 
-The zarr steering council may be contacted at `zarr-steering-council@googlegroups.com`.
+The Zarr steering council may be contacted at `zarr-steering-council@googlegroups.com`.
 Or via the [@zarr-developers/steering-council](https://github.com/orgs/zarr-developers/teams/steering-council) GitHub team.
 
 # Decision Making Process
@@ -104,9 +104,9 @@ Occasionally, sensitive discussion may occur on a private core developer mailing
 
 TBD: Alternative is via https://github.com/orgs/zarr-developers/teams/core-devs
 
-Decisions should be made in accordance with the mission and values of the zarr project.
+Decisions should be made in accordance with the mission and values of the Zarr project.
 
-zarr uses a “consensus seeking” process for making decisions. The group
+Zarr uses a “consensus seeking” process for making decisions. The group
 tries to find a resolution that has no open objections among core developers.
 Core developers are expected to distinguish between fundamental objections to a
 proposal and minor perceived flaws that they can live with, and not hold up the
