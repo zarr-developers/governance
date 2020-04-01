@@ -9,11 +9,7 @@ You can see a list of all the current core developers on our
 [@zarr-developers/core-devs](https://github.com/orgs/zarr-developers/teams/core-devs)
 GitHub team. You should now be on that list too.
 
-This document offers guidelines for your new role.  First and
-foremost, you should familiarize yourself with the project's
-[mission and values](MISSION_AND_VALUES.md).  When in
-doubt, always refer back there.
-
+This document offers guidelines for your new role.
 As a core team member, you gain the responsibility of shepherding
 other contributors through the review process; here are some
 guidelines for how to do that.
@@ -73,8 +69,7 @@ When reviewing, focus on the following:
 to both coding and non-coding users, and new features should ultimately be
 accessible to everyone using the app. `zarr` targets the scientific user
 community broadly, and core features should be domain-agnostic and general purpose.
-Custom functionality is meant to be provided through our plugin ecosystem. If in doubt,
-consult back with our [mission and values](MISSION_AND_VALUES.md).
+Custom functionality is meant to be provided through our plugin ecosystem.
 
 2. **Performance and benchmarks:** As `zarr` targets scientific applications that often involve
 large multidimensional datasets, high performance is a key value of `zarr`. While
@@ -146,7 +141,6 @@ resources such as:
 -  Our [contributor guide](CONTRIBUTING.md).
 -  Our [code of conduct](CODE_OF_CONDUCT.md).
 -  Our [governance](GOVERNANCE.md).
--  Our [mission and values](MISSION_AND_VALUES.md).
 -  Our [benchmarking guide](BENCHMARKS.md).
 -  [PEP8](https://www.python.org/dev/peps/pep-0008/) for Python style.
 -  [PEP257](https://www.python.org/dev/peps/pep-0257/) and the
