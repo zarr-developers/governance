@@ -91,18 +91,16 @@ nomination will result in discussion that cannot take more than a month and
 then admission to the SC by consensus. During that time deadlocked votes of the SC will
 be postponed until the new member has joined and another vote can be held.
 
-The Zarr steering council may be contacted at `zarr-steering-council@googlegroups.com`.
-Or via the [@zarr-developers/steering-council](https://github.com/orgs/zarr-developers/teams/steering-council) GitHub team.
+The Zarr steering council may be contacted at `zarr-steering-council@googlegroups.com`,
+or via the [@zarr-developers/steering-council](https://github.com/orgs/zarr-developers/teams/steering-council) GitHub team.
 
 # Decision Making Process
 
 Decisions about the future of the project are made through discussion with all
 members of the community. All non-sensitive project management discussion takes
 place on the issue trackers of the https://github.com/zarr-developers repositories.
-Occasionally, sensitive discussion may occur on a private core developer mailing list
-`zarr-core-devs@googlegroups.com` or private chat channel.
-
-TBD: Alternative is via https://github.com/orgs/zarr-developers/teams/core-devs
+Occasionally, sensitive discussion may occur via a private message via the GitHub team:
+https://github.com/orgs/zarr-developers/teams/core-devs
 
 Decisions should be made in accordance with the mission and values of the Zarr project.
 
