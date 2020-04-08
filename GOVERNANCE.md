@@ -120,9 +120,9 @@ are made according to the following rules:
 - **Minor documentation changes**, such as typo fixes, or addition / correction of a
   sentence, require approval by a core developer *and* no disagreement or requested
   changes by a core developer on the issue or pull request page (lazy
-  consensus). Core developers are expected to give "reasonable time" to others
+  consensus). Core developers are expected to give "reasonable time" after approval and before merging for others
   to give their opinion on the pull request if they’re not confident others
-  would agree, where "reasonable time" is likely double-digit hours.
+  would agree, where "reasonable time" is likely one working day.
 
 - **Code changes and major documentation changes** require agreement by *one*
   core developer *and* no disagreement or requested changes by a core developer
