@@ -33,8 +33,17 @@ among other possibilities. Any community member can become a contributor, and
 all are encouraged to do so. By contributing to the project, community members
 can directly help to shape its future.
 
-Contributors are encouraged to read the [contributing guide](http://zarr.readthedocs.io/en/stable/contributing.html)
-for information about contributing to Zarr.
+Potential contributors are encouraged to read the [Contributing Guide](http://zarr.readthedocs.io/en/stable/contributing.html)
+as well as the [Code of Conduct](https://github.com/zarr-developers/.github/blob/master/CODE_OF_CONDUCT.md).
+
+A community member becomes a contributor when the following criteria are met:
+
+- At least two core developers from separate employers agree membership is a good idea.
+- The new member has supported the project several times, either through code
+  or otherwise, and has demonstrated a willingness to help solve other people's
+  problems, not just their own.
+- The new member demonstrates some degree of familiarity of open source
+  practices and online courtesy.
 
 ## Core developers
 
