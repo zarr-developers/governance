@@ -18,7 +18,7 @@ guidelines for how to do that.
 
 As a core developer, you gain the ability to merge or approve
 other contributors' pull requests.  Much like nuclear launch keys, it
-is a shared power: you must merge *only after* another core has
+is a shared power: you may merge your own PRs *only after* another core has
 approved the pull request, *and* after you yourself have carefully
 reviewed it.  (See [Reviewing](#reviewing) and especially
 [Merge Only Changes You Understand](#merge-only-changes-you-understand) below.)
