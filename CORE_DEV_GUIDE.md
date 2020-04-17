@@ -55,8 +55,8 @@ yourself of how it felt when your own work was being evaluated as a
 novice.
 
 `Zarr` strongly values mentorship in code review.  New users
-often need more handholding, having little to no git
-experience. Repeat yourself liberally, and, if you don’t recognize a
+often need more hand-holding, having little to no git
+experience. Repeat yourself liberally, and, if you don't recognize a
 contributor, point them to our development guide, or other GitHub
 workflow tutorials around the web. Do not assume that they know how
 GitHub works (many don't realize that adding a commit
