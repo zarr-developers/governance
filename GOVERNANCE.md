@@ -145,6 +145,11 @@ are made according to the following rules:
   decision-making process outlined above, though "reasonable time" is likely extended
   to at least a week.
 
+- **Changes to the specification** require a dedicated issue on our
+  [issue tracker](https://github.com/zarr-developers/zarr-specs/issues) and follow the
+  decision-making process outlined above, though "reasonable time" is likely extended
+  to at least two weeks.
+
 - **Changes to this governance model or our mission, vision, and values**
   require a  dedicated issue on our [issue tracker](https://github.com/zarr-developers/governance/issues)
   and follow the decision-making process outlined above, with "reasonable time" being
