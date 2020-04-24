@@ -16,15 +16,17 @@ guidelines for how to do that.
 
 ## All Contributors Are Treated The Same
 
-As a core developer, you gain the ability to merge or approve
+As a core developer, you gain the ability to approve and merge
 other contributors' pull requests.  Much like nuclear launch keys, it
-is a shared power: you may merge your own PRs *only after* another core has
-approved the pull request, *and* after you yourself have carefully
-reviewed it.  (See [Reviewing](#reviewing) and especially
-[Merge Only Changes You Understand](#merge-only-changes-you-understand) below.)
+is a shared power: see [Reviewing](#reviewing) and especially
+[Merge Only Changes You Understand](#merge-only-changes-you-understand) below.
 It should also be considered best practice to leave a reasonable (24hr) time window
 after approval before merge to ensure that other core developers have a reasonable
 chance to weigh in.
+
+You may of course also continue to make your own pull requests as before and in accordance
+with the [general contributor guide](https://github.com/zarr-developers/.github/blob/master/CONTRIBUTING.md).
+These pull requests require the approval of another core developer before they can be merged.
 
 We are also an international community, with contributors from many different time zones,
 some of whom will only contribute during their working hours, others who might only be able
@@ -39,10 +41,6 @@ We value sustainable development practices over mad rushes.
 When merging, use GitHub's
 [Squash and Merge](https://help.github.com/articles/merging-a-pull-request/#merging-a-pull-request-on-github)
 to ensure a clean git history.
-
-You should also continue to make your own pull requests as before and in accordance
-with the [general contributor guide](https://github.com/zarr-developers/.github/blob/master/CONTRIBUTING.md).
-These pull requests still require the approval of another core developer before they can be merged.
 
 ## Reviewing
 
