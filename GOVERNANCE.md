@@ -140,15 +140,14 @@ are made according to the following rules:
   merging for others to weigh in on the pull request in its final state, where
   "reasonable time" is likely a few working days.
 
-- **Changes to the Python API principles** require a dedicated issue on our
-  [issue tracker](https://github.com/zarr-developers/zarr-python/issues) and follow the
+- **Changes to APIs ** require a dedicated issue on the related
+  issue tracker, e.g. [zarr-python](https://github.com/zarr-developers/zarr-python/issues), and follow the
   decision-making process outlined above, though "reasonable time" is likely extended
   to at least a week.
 
 - **Changes to the specification** require a dedicated issue on our
-  [issue tracker](https://github.com/zarr-developers/zarr-specs/issues) and follow the
-  decision-making process outlined above, though "reasonable time" is likely extended
-  to at least two weeks.
+  [issue tracker](https://github.com/zarr-developers/zarr-specs/issues) and even more
+  time than an API change. The appropriate length of time is currently under discussion.
 
 - **Changes to this governance model or our mission, vision, and values**
   require a  dedicated issue on our [issue tracker](https://github.com/zarr-developers/governance/issues)
