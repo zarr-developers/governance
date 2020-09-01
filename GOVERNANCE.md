@@ -140,7 +140,7 @@ are made according to the following rules:
   merging for others to weigh in on the pull request in its final state, where
   "reasonable time" is likely a few working days.
 
-- **Changes to APIs ** require a dedicated issue on the related
+- **Changes to APIs** require a dedicated issue on the related
   issue tracker, e.g. [zarr-python](https://github.com/zarr-developers/zarr-python/issues), and follow the
   decision-making process outlined above, though "reasonable time" is likely extended
   to at least a week.
