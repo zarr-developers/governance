@@ -12,6 +12,11 @@ resolved.
 
 # Roles And Responsibilities
 
+## The Project
+
+The Zarr project consists of the core Zarr specification and the various
+implementations of Zarr in different programming languages.
+
 ## The Community
 
 The Zarr community consists of anyone using or working with the project
@@ -36,30 +41,36 @@ can directly help to shape its future.
 Potential contributors are encouraged to read the [Contributing Guide](http://zarr.readthedocs.io/en/stable/contributing.html)
 as well as the [Code of Conduct](https://github.com/zarr-developers/.github/blob/master/CODE_OF_CONDUCT.md).
 
-A community member becomes a contributor when the following criteria are met:
-
-- At least two core developers from separate employers agree membership is a good idea.
-- The new member has supported the project several times, either through code
-  or otherwise, and has demonstrated a willingness to help solve other people's
-  problems, not just their own.
-- The new member demonstrates some degree of familiarity of open source
-  practices and online courtesy.
+Anyone who has recently engaged with the project in these concrete ways, in compliance with
+the Contributing Guide and Code of Conduct, is considered a contributor.
 
 ## Core developers
 
 Core developers are community members that have demonstrated continued
-commitment to the project through ongoing contributions. They
-have shown they can be trusted to maintain Zarr with care. Becoming a
-core developer allows contributors to merge approved pull requests, cast votes
+commitment to the project through ongoing contributions to the specification,
+governance, and / or implementions of Zarr.
+The have shown they can be trusted to maintain the project with care.
+Each implementation has its own set of core developers.
+Becoming a core developer allows contributors to merge approved pull requests, cast votes
 for and against merging a pull-request, and be involved in deciding major
 changes to the API, and thereby more easily carry on with their project related
 activities. Core developers appear as organization members on the Zarr
-[GitHub organization](https://github.com/orgs/zarr-developers/people) and are on our
-[@zarr-developers/core-devs](https://github.com/orgs/zarr-developers/teams/core-devs) GitHub team. Core
-developers are expected to review code contributions while adhering to the
+[GitHub organization](https://github.com/orgs/zarr-developers/people).
+All core develoipes belong to the
+[@zarr-developers/core-devs](https://github.com/orgs/zarr-developers/teams/core-devs) GitHub team
+as well as one or more implementation-specific sub-teams.
+Core  developers are expected to review code contributions while adhering to the
 [core developer guide](CORE_DEV_GUIDE.md). New core developers can be nominated
-by any existing core developer, and for details on that process see our core
-developer guide.
+by any existing core developer.
+For details on that process see our core developer guide.
+
+## Implementation Council
+
+The Core Developers of each implementation will nominate one representative to the Zarr
+implementation council.
+This member will represent that implementation in decisions regarding the Zarr Specification
+and other Zarr-wide contexts which require input from implementations.
+It is up to each implementation to determine its own process for nominating its representative.
 
 ## Steering Council
 
