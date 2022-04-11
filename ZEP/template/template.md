@@ -7,7 +7,7 @@ Author: <list of authors’ real name and email addresses>
 
 Status: < Draft | Active | Accepted | Deferred | Rejected | Withdrawn | Final | Superseded >
 
-Type: <Standards Track | Informational | Process>
+Type: <Specification | Standards Track | Informational | Process>
 
 Created: <date created on, in dd-mmm-yyyy format>
 
@@ -25,7 +25,7 @@ This section should explicitly address the scope of and key requirements for the
 
 ## Usage and Impact
 
-This section describes how users of Zarr will use the features described in this ZEP. It should be comprised mainly of code examples that wouldn’t be possible 
+This section describes how users of Zarr will use the new features, spec changes or a new process described in this ZEP. It should be comprised mainly of code examples that wouldn’t be possible 
 without acceptance and implementation of this ZEP, as well as the impact the proposed changes would have on the ecosystem. This section should be written from 
 the perspective of the users of Zarr, and the benefit it will provide them; as such, it should include implementation details only if necessary to explain the 
 functionality.
