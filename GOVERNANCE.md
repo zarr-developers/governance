@@ -15,7 +15,9 @@ resolved.
 ## The Project
 
 The Zarr project consists of the core Zarr specification and the various
-implementations of Zarr in different programming languages.
+implementations of Zarr in different programming languages that are hosted
+within this organization. Other community implementations exist but do not
+follow this governance process.
 
 ## The Community
 
@@ -42,7 +44,9 @@ Potential contributors are encouraged to read the [Contributing Guide](http://za
 as well as the [Code of Conduct](https://github.com/zarr-developers/.github/blob/master/CODE_OF_CONDUCT.md).
 
 Anyone who has recently engaged with the project in these concrete ways, in compliance with
-the Contributing Guide and Code of Conduct, is considered a contributor.
+the Contributing Guide and Code of Conduct, is considered a contributor and can request
+to be added to the relevant GitHub team. Alternatively, any existing member
+of the community can invite a contributor to join.
 
 ## Core developers
 
@@ -56,21 +60,41 @@ for and against merging a pull-request, and be involved in deciding major
 changes to the API, and thereby more easily carry on with their project related
 activities. Core developers appear as organization members on the Zarr
 [GitHub organization](https://github.com/orgs/zarr-developers/people).
-All core develoipes belong to the
+All core developers belong to the
 [@zarr-developers/core-devs](https://github.com/orgs/zarr-developers/teams/core-devs) GitHub team
 as well as one or more implementation-specific sub-teams.
-Core  developers are expected to review code contributions while adhering to the
+Core developers are expected to review code contributions while adhering to the
 [core developer guide](CORE_DEV_GUIDE.md). New core developers can be nominated
 by any existing core developer.
 For details on that process see our core developer guide.
 
 ## Implementation Council
 
-The Core Developers of each implementation will nominate one representative to the Zarr
-implementation council.
-This member will represent that implementation in decisions regarding the Zarr Specification
-and other Zarr-wide contexts which require input from implementations.
-It is up to each implementation to determine its own process for nominating its representative.
+The Zarr steering council will invite Zarr implementations participate in the
+management of the Zarr specification. Implementations will be selected based
+on maturity of implementation as well as the activity of the developer community.
+Preference will be given to open source *and open process* implementations.
+Multiple implementations in a single programming language may be invited, or
+such implementations could choose to work together as a single community.
+
+The current list of implementations which are participating in this process are:
+
+ * TBD...
+
+The Core developers of each implementation will select one representative to
+the Zarr implementation council. It is up to each implementation to determine
+its own process for selecting its representatives.
+
+This member will represent that implementation in decisions regarding the Zarr
+Specification and other Zarr-wide contexts which require input from
+implementations.
+
+An additional representation should also be selected to act as an alternate
+for when the primary representative is not reachable.
+
+Continued membership on the council is dependent on timely feedback and votes
+on relevant issues. The steering council also reserves the right to remove
+implementations from the council.
 
 ## Steering Council
 
