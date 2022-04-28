@@ -7,7 +7,7 @@ Author: <list of authors’ real name and email addresses>
 
 Status: < Draft | Active | Accepted | Deferred | Rejected | Withdrawn | Final | Superseded >
 
-Type: <Specification | Standards Track | Informational | Process>
+Type: <Specification | Informational | Process>
 
 Created: <date created on, in dd-mmm-yyyy format>
 
