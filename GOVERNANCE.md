@@ -67,45 +67,17 @@ Core developers are expected to review code contributions while adhering to the
 [core developer guide](CORE_DEV_GUIDE.md). New core developers can be nominated
 by any existing core developer. For details on that process see our core developer guide.
 
-## Implementation Council
+## Zarr Steering Council
 
-The Zarr steering council will invite Zarr implementations participate in the
-management of the Zarr specification. Implementations will be selected based
-on maturity of implementation as well as the activity of the developer community.
-Preference will be given to open source *and open process* implementations.
-Multiple implementations in a single programming language may be invited, or
-such implementations could choose to work together as a single community.
-
-The current list of implementations which are participating in this process are:
-
- * TBD...
-
-The Core developers of each implementation will select one representative to
-the Zarr implementation council. It is up to each implementation to determine
-its own process for selecting its representatives.
-
-This member will represent that implementation in decisions regarding the Zarr
-Specification and other Zarr-wide contexts which require input from
-implementations.
-
-An additional representation should also be selected to act as an alternate
-for when the primary representative is not reachable.
-
-Continued membership on the council is dependent on timely feedback and votes
-on relevant issues. The steering council also reserves the right to remove
-implementations from the council.
-
-## Steering Council
-
-The Steering Council (SC) members are core developers who have additional
-responsibilities to ensure the smooth running of the project. SC members are
+The Zarr Steering Council (ZSC) members are core developers who have additional
+responsibilities to ensure the smooth running of the project. ZSC members are
 expected to participate in strategic planning, approve changes to the
 governance model, and make decisions about funding granted to the project
 itself. (Funding to community members is theirs to pursue and manage). The
-purpose of the SC is to ensure smooth progress from the big-picture
+purpose of the ZSC is to ensure smooth progress from the big-picture
 perspective. Changes that impact the full project require analysis informed by
 long experience with both the project and the larger ecosystem. When the core
-developer community (including the SC members) fails to reach such a consensus
+developer community (including the ZSC members) fails to reach such a consensus
 in a reasonable timeframe, the SC is the entity that resolves the issue.
 
 Members of the steering council also have the "owner" role within the [zarr-developers GitHub organization](https://github.com/zarr-developers/)
@@ -136,6 +108,35 @@ be postponed until the new member has joined and another vote can be held.
 
 The Zarr steering council may be contacted at `zarr-steering-council@googlegroups.com`,
 or via the [@zarr-developers/steering-council](https://github.com/orgs/zarr-developers/teams/steering-council) GitHub team.
+
+## Zarr Implementation Council (ZIC)
+
+The ZSC will invite Zarr implementations to participate in the management of the
+Zarr specification through the Zarr Implementation Council (ZIC).
+Implementations will be selected based on maturity of implementation as well as
+the activity of the developer community.  Preference will be given to open
+source *and open process* implementations.  Multiple implementations in a single
+programming language may be invited, or such implementations could choose to
+work together as a single community.
+
+The current list of implementations which are participating in this process are:
+
+ * TBD...
+
+The Core developers of each implementation will select one representative to the
+ZIC. It is up to each implementation to determine its own process for selecting
+its representatives.
+
+This member will represent that implementation in decisions regarding the Zarr
+Specification and other Zarr-wide contexts which require input from
+implementations.
+
+An additional representative should also be selected to act as an alternate
+for when the primary representative is not reachable.
+
+Continued membership on the ZIC is dependent on timely feedback and votes on
+relevant issues. The ZSC also reserves the right to remove implementations from
+the council.
 
 # Decision Making Process
 
