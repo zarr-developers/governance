@@ -1,8 +1,9 @@
 ---
-name: Invitation to Zarr Implementation Council (${COMMUNITY})
+name: ZIC Invite
+title: Invitation to Zarr Implementation Council (${COMMUNITY})
 about: For use by the ZSC to invite communities to join the Zarr Implementation Council
 labels: ZIC
-assignees: @zarr-developers/steering-council
+assignees: ''
 ---
 
 <!--
