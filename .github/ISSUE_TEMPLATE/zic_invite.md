@@ -6,6 +6,8 @@ labels: ZIC
 assignees: ''
 ---
 
+_attn:_ ${TEAM-OR-USER-NAMES}
+
 <!--
 Invitation to be sent to implementation communities:
 
@@ -34,10 +36,8 @@ team on GitHub which has privileges on the zarr-specs and zep repos.
 ## Next steps
 
 First, if you would like to read more on the council and the process surrounding it,
-please see
-the [Governance document](https://github.com/zarr-developers/governance/blob/74d6f3fcd98ee76c5807d0f8754a195a3ce18876/GOVERNANCE.md#implementation-council)
-as well as the [ZEP](https://github.com/zarr-developers/governance/blob/1d2f3989896955c8bff8dc8d3d03f7580eaa474e/ZEP/instructions/zep0000.md) itself.
-for more information.
+please see the [Governance document](https://github.com/zarr-developers/governance/blob/74d6f3fcd98ee76c5807d0f8754a195a3ce18876/GOVERNANCE.md#implementation-council)
+as well as the [ZEP](https://github.com/zarr-developers/governance/blob/1d2f3989896955c8bff8dc8d3d03f7580eaa474e/ZEP/instructions/zep0000.md) itself for more information.
 
 Then, please use this issue to let the steering council know either:
  * that you are not interested or perhaps do not have the capacity at this time
