@@ -12,6 +12,13 @@ resolved.
 
 # Roles And Responsibilities
 
+## The Project
+
+The Zarr project consists of the core Zarr specification and the various
+implementations of Zarr in different programming languages that are hosted
+within this organization. Other community implementations exist but do not
+follow this governance process.
+
 ## The Community
 
 The Zarr community consists of anyone using or working with the project
@@ -36,42 +43,41 @@ can directly help to shape its future.
 Potential contributors are encouraged to read the [Contributing Guide](http://zarr.readthedocs.io/en/stable/contributing.html)
 as well as the [Code of Conduct](https://github.com/zarr-developers/.github/blob/master/CODE_OF_CONDUCT.md).
 
-A community member becomes a contributor when the following criteria are met:
-
-- At least two core developers from separate employers agree membership is a good idea.
-- The new member has supported the project several times, either through code
-  or otherwise, and has demonstrated a willingness to help solve other people's
-  problems, not just their own.
-- The new member demonstrates some degree of familiarity of open source
-  practices and online courtesy.
+Anyone who has recently engaged with the project in these concrete ways, in compliance with
+the Contributing Guide and Code of Conduct, is considered a contributor and can request
+to be added to the relevant GitHub team. Alternatively, any existing member
+of the community can invite a contributor to join.
 
 ## Core developers
 
 Core developers are community members that have demonstrated continued
-commitment to the project through ongoing contributions. They
-have shown they can be trusted to maintain Zarr with care. Becoming a
-core developer allows contributors to merge approved pull requests, cast votes
+commitment to the project through ongoing contributions to the specification,
+governance, and / or implementions of Zarr.
+The have shown they can be trusted to maintain the project with care.
+Each implementation has its own set of core developers.
+Becoming a core developer allows contributors to merge approved pull requests, cast votes
 for and against merging a pull-request, and be involved in deciding major
 changes to the API, and thereby more easily carry on with their project related
 activities. Core developers appear as organization members on the Zarr
-[GitHub organization](https://github.com/orgs/zarr-developers/people) and are on our
-[@zarr-developers/core-devs](https://github.com/orgs/zarr-developers/teams/core-devs) GitHub team. Core
-developers are expected to review code contributions while adhering to the
+[GitHub organization](https://github.com/orgs/zarr-developers/people).
+All core developers belong to the
+[@zarr-developers/core-devs](https://github.com/orgs/zarr-developers/teams/core-devs) GitHub team
+either directly or via one or more implementation-specific sub-teams.
+Core developers are expected to review code contributions while adhering to the
 [core developer guide](CORE_DEV_GUIDE.md). New core developers can be nominated
-by any existing core developer, and for details on that process see our core
-developer guide.
+by any existing core developer. For details on that process see our core developer guide.
 
-## Steering Council
+## Zarr Steering Council
 
-The Steering Council (SC) members are core developers who have additional
-responsibilities to ensure the smooth running of the project. SC members are
+The Zarr Steering Council (ZSC) members are core developers who have additional
+responsibilities to ensure the smooth running of the project. ZSC members are
 expected to participate in strategic planning, approve changes to the
 governance model, and make decisions about funding granted to the project
 itself. (Funding to community members is theirs to pursue and manage). The
-purpose of the SC is to ensure smooth progress from the big-picture
+purpose of the ZSC is to ensure smooth progress from the big-picture
 perspective. Changes that impact the full project require analysis informed by
 long experience with both the project and the larger ecosystem. When the core
-developer community (including the SC members) fails to reach such a consensus
+developer community (including the ZSC members) fails to reach such a consensus
 in a reasonable timeframe, the SC is the entity that resolves the issue.
 
 Members of the steering council also have the "owner" role within the [zarr-developers GitHub organization](https://github.com/zarr-developers/)
@@ -102,6 +108,50 @@ be postponed until the new member has joined and another vote can be held.
 
 The Zarr steering council may be contacted at `zarr-steering-council@googlegroups.com`,
 or via the [@zarr-developers/steering-council](https://github.com/orgs/zarr-developers/teams/steering-council) GitHub team.
+
+## Zarr Implementation Council (ZIC)
+
+The ZSC will invite Zarr implementations to participate in the management of the
+Zarr specification through the Zarr Implementation Council (ZIC).
+Implementations will be selected based on maturity of implementation as well as
+the activity of the developer community.  Preference will be given to open
+source *and open process* implementations.  Multiple implementations in a single
+programming language may be invited, or such implementations could choose to
+work together as a single community.
+
+The current list of implementations which are participating in this process are
+(in alphabetical order)
+
+ * [constantinpape/z5](https://github.com/constantinpape/z5)
+    represented by [@constantinpape](https://github.com/constantinpape)
+    ([May 2022 – present](https://github.com/zarr-developers/governance/issues/26))
+
+ * [google/tensorstore](https://github.com/google/tensorstore)
+    represented by [@jbms](https://github.com/jbms)
+    ([May 2022 – present](https://github.com/zarr-developers/governance/issues/22))
+
+ * [freeman-lab/zarr-js](https://github.com/freeman-lab/zarr-js)
+    represented by [@freeman-lab](https://github.com/freeman-lab)
+    ([May 2022 – present](https://github.com/zarr-developers/governance/issues/27))
+
+ * [saalfeldlab/n5-zarr](https://github.com/saalfeldlab/n5-zarr)
+   represented by [@axtimwalde](https://github.com/axtimwalde)
+   ([May 2022 – present](https://github.com/zarr-developers/governance/issues/25))
+
+The Core developers of each implementation will select one representative to the
+ZIC. It is up to each implementation to determine its own process for selecting
+its representatives.
+
+This member will represent that implementation in decisions regarding the Zarr
+Specification and other Zarr-wide contexts which require input from
+implementations.
+
+An additional representative should also be selected to act as an alternate
+for when the primary representative is not reachable.
+
+Continued membership on the ZIC is dependent on timely feedback and votes on
+relevant issues. The ZSC also reserves the right to remove implementations from
+the council.
 
 # Decision Making Process
 
