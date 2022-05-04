@@ -53,3 +53,11 @@ Most importantly, we would like to show the vibrancy of the Zarr community
 and the strength that comes from a larger number of implementations.
 
 Thanks to all of you!
+
+----
+
+* If joining:
+  * [ ] Create a dedicated core-devs team and assign all members
+  * [ ] Add representative to the implementation-council team
+  * [ ] Update GOVERNANCE.md
+  * [ ] Accept transfer of repository if desired
