@@ -119,9 +119,24 @@ source *and open process* implementations.  Multiple implementations in a single
 programming language may be invited, or such implementations could choose to
 work together as a single community.
 
-The current list of implementations which are participating in this process are:
+The current list of implementations which are participating in this process are
+(in alphabetical order)
 
- * TBD...
+ * [constantinpape/z5](https://github.com/constantinpape/z5)
+    represented by [@constantinpape](https://github.com/constantinpape)
+    ([May 2022 – present](https://github.com/zarr-developers/governance/issues/26))
+
+ * [google/tensorstore](https://github.com/google/tensorstore)
+    represented by [@jbms](https://github.com/jbms)
+    ([May 2022 – present](https://github.com/zarr-developers/governance/issues/22))
+
+ * [freeman-lab/zarr-js](https://github.com/freeman-lab/zarr-js)
+    represented by [@freeman-lab](https://github.com/freeman-lab)
+    ([May 2022 – present](https://github.com/zarr-developers/governance/issues/27))
+
+ * [saalfeldlab/n5-zarr](https://github.com/saalfeldlab/n5-zarr)
+   represented by [@axtimwalde](https://github.com/axtimwalde)
+   ([May 2022 – present](https://github.com/zarr-developers/governance/issues/25))
 
 The Core developers of each implementation will select one representative to the
 ZIC. It is up to each implementation to determine its own process for selecting
