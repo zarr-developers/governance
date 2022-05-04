@@ -57,7 +57,7 @@ Thanks to all of you!
 ----
 
 * If joining:
-  * [ ] Create a dedicated core-devs team and assign all members
+  * [ ] Create a dedicated core-devs team and assign all members, adding maintainers, etc.
   * [ ] Add representative to the implementation-council team
   * [ ] Update GOVERNANCE.md
   * [ ] Accept transfer of repository if desired
