@@ -134,6 +134,10 @@ The current list of implementations which are participating in this process are
     represented by [Jeremy Freeman](https://github.com/freeman-lab)
     ([May 2022 – present](https://github.com/zarr-developers/governance/issues/27))
 
+ * [JuliaIO/Zarr.jl](https://github.com/JuliaIO/Zarr.jl)
+    represented by [Fabian Gans](https://github.com/meggart)
+    ([May 2022 – present](https://github.com/zarr-developers/governance/issues/18))
+
  * [saalfeldlab/n5-zarr](https://github.com/saalfeldlab/n5-zarr)
    represented by [Stephan Saalfeld](https://github.com/axtimwalde)
    ([May 2022 – present](https://github.com/zarr-developers/governance/issues/25))
