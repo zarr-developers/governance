@@ -41,7 +41,7 @@ all are encouraged to do so. By contributing to the project, community members
 can directly help to shape its future.
 
 Potential contributors are encouraged to read the [Contributing Guide](http://zarr.readthedocs.io/en/stable/contributing.html)
-as well as the [Code of Conduct](https://github.com/zarr-developers/.github/blob/master/CODE_OF_CONDUCT.md).
+as well as the [Code of Conduct](https://github.com/zarr-developers/.github/blob/main/CODE_OF_CONDUCT.md).
 
 Anyone who has recently engaged with the project in these concrete ways, in compliance with
 the Contributing Guide and Code of Conduct, is considered a contributor and can request
