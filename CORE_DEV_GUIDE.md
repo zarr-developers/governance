@@ -25,7 +25,7 @@ after approval before merge to ensure that other core developers have a reasonab
 chance to weigh in.
 
 You may of course also continue to make your own pull requests as before and in accordance
-with the [general contributor guide](https://github.com/zarr-developers/.github/blob/master/CONTRIBUTING.md).
+with the [general contributor guide](https://github.com/zarr-developers/.github/blob/main/CONTRIBUTING.md).
 These pull requests require the approval of another core developer before they can be merged.
 
 We are also an international community, with contributors from many different time zones,
@@ -35,7 +35,7 @@ schedules and working habits, even if it slows the project down slightly - we ar
 for the long run. In the same vein you also shouldn't feel pressured to be constantly
 available or online, and users or contributors who are overly demanding and unreasonable
 to the point of harassment will be directed to our
-[Code of Conduct](https://github.com/zarr-developers/.github/blob/master/CODE_OF_CONDUCT.md).
+[Code of Conduct](https://github.com/zarr-developers/.github/blob/main/CODE_OF_CONDUCT.md).
 We value sustainable development practices over mad rushes.
 
 When merging, use GitHub's
@@ -133,8 +133,8 @@ that responsibility seriously.
 As a core member, you should be familiar with community and developer
 resources such as:
 
--  Our [contributor guide](https://github.com/zarr-developers/.github/blob/master/CONTRIBUTING.md).
--  Our [code of conduct](https://github.com/zarr-developers/.github/blob/master/CODE_OF_CONDUCT.md).
+-  Our [contributor guide](https://github.com/zarr-developers/.github/blob/main/CONTRIBUTING.md).
+-  Our [code of conduct](https://github.com/zarr-developers/.github/blob/main/CODE_OF_CONDUCT.md).
 -  Our [governance](GOVERNANCE.md).
 -  [PEP8](https://www.python.org/dev/peps/pep-0008/) for Python style.
 -  [PEP257](https://www.python.org/dev/peps/pep-0257/) and the
