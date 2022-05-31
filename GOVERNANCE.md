@@ -159,6 +159,10 @@ The current list of implementations which are participating in this process are
    represented by [David Brochart](https://github.com/davidbrochart)
    ([May 2022 - present](https://github.com/zarr-developers/governance/issues/23))
 
+ * [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
+   represented by [Gregory Lee](https://github.com/grlee77)
+   ([May 2022 - present](https://github.com/zarr-developers/governance/issues/19))
+
 The Core developers of each implementation will select one representative to the
 ZIC. It is up to each implementation to determine its own process for selecting
 its representatives.
