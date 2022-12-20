@@ -42,7 +42,7 @@ all are encouraged to do so. By contributing to the project, community members
 can directly help to shape its future.
 
 Potential contributors are encouraged to read the [Contributing Guide](http://zarr.readthedocs.io/en/stable/contributing.html)
-as well as the [Code of Conduct](https://github.com/zarr-developers/.github/blob/main/CODE_OF_CONDUCT.md).
+as well as the [CODE OF CONDUCT](https://github.com/zarr-developers/.github/blob/main/CODE_OF_CONDUCT.md).
 
 Anyone who has recently engaged with the project in these concrete ways, in compliance with
 the Contributing Guide and Code of Conduct, is considered a contributor and can request
@@ -189,15 +189,15 @@ https://github.com/orgs/zarr-developers/teams/core-devs
 
 Decisions should be made in accordance with the mission and values of the Zarr project.
 
-Zarr uses a “consensus seeking” process for making decisions. The group tries to
-find a resolution that has no open objections among core developers and ZIC.
-Core developers and ZIC are expected to distinguish between fundamental
-objections to a proposal and minor perceived flaws that they can live with, and
-not hold up the decision-making process for the latter.  If no option can be
-found without objections, the decision is escalated to the SC, which will
-itself use consensus seeking to come to a resolution. In the unlikely event
-that there is still a deadlock, the proposal will move forward if it has the
-support of a simple majority of the SC.
+Zarr uses a “consensus-seeking” process for making decisions. The group tries to
+find a resolution that has no open objections among core developers and ZIC
+representatives. Core developers and ZIC representatives are expected to
+distinguish between fundamental objections to a proposal and minor perceived
+flaws that they can live with and not hold up the decision-making process for
+the latter. If no option can be found without objections, the decision is
+escalated to the SC, which will use consensus to come to a resolution. In the
+unlikely event that there is still a deadlock, the proposal will move forward
+if it has the support of a simple majority of the SC.
 
 Decisions (in addition to adding core developers, ZIC representative(s) and SC
 membership as above) are made according to the following rules:
