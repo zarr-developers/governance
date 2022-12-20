@@ -14,10 +14,11 @@ resolved.
 
 ## The Project
 
-The Zarr project consists of the core Zarr specification and the various
-implementations of Zarr in different programming languages that are hosted
-within this organization. Other community implementations exist but do not
-follow this governance process.
+The Zarr project consists of the core [Zarr specification](https://github.com/zarr-developers/zarr-specs/)
+and the various [implementations](https://github.com/zarr-developers/zarr_implementations/)
+of Zarr in different programming languages that are hosted within this
+organization. Other community implementations exist but do not follow this
+governance process.
 
 ## The Community
 
@@ -188,18 +189,18 @@ https://github.com/orgs/zarr-developers/teams/core-devs
 
 Decisions should be made in accordance with the mission and values of the Zarr project.
 
-Zarr uses a “consensus seeking” process for making decisions. The group
-tries to find a resolution that has no open objections among core developers.
-Core developers are expected to distinguish between fundamental objections to a
-proposal and minor perceived flaws that they can live with, and not hold up the
-decision-making process for the latter.  If no option can be found without
-objections, the decision is escalated to the SC, which will itself use
-consensus seeking to come to a resolution. In the unlikely event that there is
-still a deadlock, the proposal will move forward if it has the support of a
-simple majority of the SC.
+Zarr uses a “consensus seeking” process for making decisions. The group tries to
+find a resolution that has no open objections among core developers and ZIC.
+Core developers and ZIC are expected to distinguish between fundamental
+objections to a proposal and minor perceived flaws that they can live with, and
+not hold up the decision-making process for the latter.  If no option can be
+found without objections, the decision is escalated to the SC, which will
+itself use consensus seeking to come to a resolution. In the unlikely event
+that there is still a deadlock, the proposal will move forward if it has the
+support of a simple majority of the SC.
 
-Decisions (in addition to adding core developers and SC membership as above)
-are made according to the following rules:
+Decisions (in addition to adding core developers, ZIC representative(s) and SC
+membership as above) are made according to the following rules:
 
 - **Minor documentation changes**, such as typo fixes, or addition / correction of a
   sentence, require approval by a core developer *and* no disagreement or requested
@@ -220,15 +221,15 @@ are made according to the following rules:
   decision-making process outlined above, though "reasonable time" is likely extended
   to at least a week.
 
-- **Changes to the specification** require a dedicated issue on our
-  [issue tracker](https://github.com/zarr-developers/zarr-specs/issues) and even more
-  time than an API change. The appropriate length of time is currently under discussion.
+- **Changes to the specification** follow the [ZEP](https://zarr.dev/zeps)
+  process. Please read [ZEP0000](https://zarr.dev/zeps/active/ZEP0000.html)
+  for details and instructions to submit a new ZEP.
 
 - **Changes to this governance model or our mission, vision, and values**
   require a  dedicated issue on our [issue tracker](https://github.com/zarr-developers/governance/issues)
-  and follow the decision-making process outlined above, with "reasonable time" being
-  at least two weeks. However, if there is unanimous agreement from core developers on the change,
-  it can move forward faster.
+  and follow the [ZEP](https://zarr.dev/zeps) process, with "reasonable time"
+  being at least two weeks. However, if there is unanimous agreement from core
+  developers on the change, it can move forward faster.
 
 If an objection is raised on a lazy consensus, the proposer can appeal to the
 community and core developers and the change can be approved or rejected by
