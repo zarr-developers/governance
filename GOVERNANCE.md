@@ -83,7 +83,7 @@ in a reasonable timeframe, the SC is the entity that resolves the issue.
 
 Members of the steering council also have the "owner" role within the [zarr-developers GitHub organization](https://github.com/zarr-developers/)
 and are ultimately responsible for managing the [zarr-developers](https://github.com/zarr-developers) GitHub account, the [@zarr_dev](https://twitter.com/zarr_dev)
-twitter account, the [Zarr website]( https://zarr-developers.github.io), and other similar Zarr-owned resources.
+twitter account, the [Zarr website](https://zarr-developers.github.io), and other similar Zarr-owned resources.
 
 The steering council is currently fixed in size to five members. This number may be increased in
 the future, but will always be an odd number to ensure a simple majority vote outcome
@@ -190,17 +190,17 @@ https://github.com/orgs/zarr-developers/teams/core-devs
 Decisions should be made in accordance with the mission and values of the Zarr project.
 
 Zarr uses a “consensus-seeking” process for making decisions. The group tries to
-find a resolution that has no open objections among core developers and ZIC
-representatives. Core developers and ZIC representatives are expected to
-distinguish between fundamental objections to a proposal and minor perceived
-flaws that they can live with and not hold up the decision-making process for
-the latter. If no option can be found without objections, the decision is
-escalated to the ZSC, which will use consensus to come to a resolution. In the
-unlikely event that there is still a deadlock, the proposal will move forward
-if it has the support of a simple majority of the ZSC.
+find a resolution that has no open objections among core developers. Core
+developers are expected to distinguish between fundamental objections to a
+proposal and minor perceived flaws that they can live with and not hold up the
+decision-making process for the latter. If no option can be found without
+objections, the decision is escalated to the SC, which will use consensus to
+come to a resolution. In the unlikely event that there is still a deadlock, the
+proposal will move forward if it has the support of a simple majority of the
+SC.
 
-Decisions (in addition to adding core developers, ZIC representative(s) and ZSC
-membership as above) are made according to the following rules:
+Decisions (in addition to adding core developers and SC membership as above) are
+made according to the following rules:
 
 - **Minor documentation changes**, such as typo fixes, or addition / correction of a
   sentence, require approval by a core developer *and* no disagreement or requested
