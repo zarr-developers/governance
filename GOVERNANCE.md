@@ -199,7 +199,7 @@ escalated to the ZSC, which will use consensus to come to a resolution. In the
 unlikely event that there is still a deadlock, the proposal will move forward
 if it has the support of a simple majority of the ZSC.
 
-Decisions (in addition to adding core developers, ZIC representative(s) and SC
+Decisions (in addition to adding core developers, ZIC representative(s) and ZSC
 membership as above) are made according to the following rules:
 
 - **Minor documentation changes**, such as typo fixes, or addition / correction of a
