@@ -195,7 +195,7 @@ representatives. Core developers and ZIC representatives are expected to
 distinguish between fundamental objections to a proposal and minor perceived
 flaws that they can live with and not hold up the decision-making process for
 the latter. If no option can be found without objections, the decision is
-escalated to the SC, which will use consensus to come to a resolution. In the
+escalated to the ZSC, which will use consensus to come to a resolution. In the
 unlikely event that there is still a deadlock, the proposal will move forward
 if it has the support of a simple majority of the SC.
 
