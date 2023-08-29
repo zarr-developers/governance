@@ -15,7 +15,7 @@ resolved.
 ## The Project
 
 The Zarr project consists of the core [Zarr specification](https://github.com/zarr-developers/zarr-specs/)
-and the various [implementations](https://github.com/zarr-developers/zarr_implementations/)
+and the various [implementations](https://zarr.dev/implementations/)
 of Zarr in different programming languages that are hosted within this
 organization. Other community implementations exist but do not follow this
 governance process.
