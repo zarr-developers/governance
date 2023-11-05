@@ -132,7 +132,7 @@ The current list of implementations which are participating in this process are
     ([May 2022 – present](https://github.com/zarr-developers/governance/issues/22))
 
  * [freeman-lab/zarr-js](https://github.com/freeman-lab/zarr-js)
-    represented by [Jeremy Freeman](https://github.com/freeman-lab)
+    represented by [Anderson Banihirwe](https://github.com/andersy005)
     ([May 2022 – present](https://github.com/zarr-developers/governance/issues/27))
 
  * [gzuidhof/zarr.js](https://github.com/gzuidhof/zarr.js)
