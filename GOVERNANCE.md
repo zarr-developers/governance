@@ -197,7 +197,7 @@ decision-making process for the latter. If no option can be found without
 objections, the decision is escalated to the SC, which will use consensus to
 come to a resolution. In the unlikely event that there is still a deadlock, the
 proposal will move forward if it has the support of a simple majority of the
-SC.
+ZSC.
 
 Decisions (in addition to adding core developers and SC membership as above) are
 made according to the following rules:
