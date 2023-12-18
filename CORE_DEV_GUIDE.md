@@ -165,8 +165,13 @@ community values. After nomination voting will happen on a private mailing list.
 While it is expected that most votes will be unanimous, a two-thirds majority of
 the cast votes is enough.
 
-Core developers can choose to become emeritus core developers and suspend
-their approval and voting rights until they become active again.
+## Offboarding Core Members
+
+Core developers are expected to make regular contributions to the project. Core developers
+can choose to become emeritus core developers and suspend their approval and voting rights
+until they become active again. If a core developer becomes inactive in the project for a
+period of one year, they may be removed by core developer team with a two-thirds majority
+vote.
 
 ## Contribute To This Guide!
 
