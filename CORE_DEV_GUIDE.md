@@ -167,11 +167,12 @@ the cast votes is enough.
 
 ## Offboarding Core Members
 
-Core developers are expected to make regular contributions to the project. Core developers
-can choose to become emeritus core developers and suspend their approval and voting rights
-until they become active again. If a core developer becomes inactive in the project for a
-period of one year, they may be removed or classified as emeritus by the core developer team with a majority vote
-vote.
+Core developers are expected to regularly participate in the project. Participation is defined
+as any of the following activities: contributions to the project's source code or documentation,
+engagement in discussions on the project's issue tracker, code reviews, and user support. Core
+developers may choose to become emeritus core developers and suspend their approval and voting rights
+until they become active again. If a core developer becomes inactive in the project for a period of
+one year, they may be removed or classified as emeritus by the core developer team with a majority vote.
 
 ## Contribute To This Guide!
 
