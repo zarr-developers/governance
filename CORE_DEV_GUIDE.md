@@ -162,7 +162,7 @@ they should have: been part of the project for at least two months, contributed
 significant changes of their own, contributed to the discussion and
 review of others' work, and collaborated in a way befitting our
 community values. After nomination voting will happen on a private mailing list.
-While it is expected that most votes will be unanimous, a two-thirds majority of
+While it is expected that most votes will be unanimous, a majority of
 the cast votes is enough.
 
 ## Offboarding Core Members
@@ -170,7 +170,7 @@ the cast votes is enough.
 Core developers are expected to make regular contributions to the project. Core developers
 can choose to become emeritus core developers and suspend their approval and voting rights
 until they become active again. If a core developer becomes inactive in the project for a
-period of one year, they may be removed by core developer team with a two-thirds majority
+period of one year, they may be removed or classified as emeritus by the core developer team with a majority vote
 vote.
 
 ## Contribute To This Guide!
