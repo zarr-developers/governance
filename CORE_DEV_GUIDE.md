@@ -162,11 +162,17 @@ they should have: been part of the project for at least two months, contributed
 significant changes of their own, contributed to the discussion and
 review of others' work, and collaborated in a way befitting our
 community values. After nomination voting will happen on a private mailing list.
-While it is expected that most votes will be unanimous, a two-thirds majority of
+While it is expected that most votes will be unanimous, a majority of
 the cast votes is enough.
 
-Core developers can choose to become emeritus core developers and suspend
-their approval and voting rights until they become active again.
+## Offboarding Core Members
+
+Core developers are expected to regularly participate in the project. Participation is defined
+as any of the following activities: contributions to the project's source code or documentation,
+engagement in discussions on the project's issue tracker, code reviews, and user support. Core
+developers may choose to become emeritus core developers and suspend their approval and voting rights
+until they become active again. If a core developer becomes inactive in the project for a period of
+one year, they may be removed or classified as emeritus by the core developer team with a majority vote.
 
 ## Contribute To This Guide!
 
