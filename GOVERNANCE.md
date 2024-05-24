@@ -67,7 +67,7 @@ either directly or via one or more implementation-specific sub-teams.
 Core developer sub-teams are given the "admin" role within the repositories that they manage. 
 Core developers are expected to review code contributions while adhering to the
 [core developer guide](CORE_DEV_GUIDE.md). New core developers can be nominated
-by any existing core developer. For details on that process see our core developer guide. 
+by any existing core developer. For details on that process see our core developer guide.
 
 ## Zarr Steering Council
 
