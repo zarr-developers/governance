@@ -64,6 +64,7 @@ activities. Core developers appear as organization members on the Zarr
 All core developers belong to the
 [@zarr-developers/core-devs](https://github.com/orgs/zarr-developers/teams/core-devs) GitHub team
 either directly or via one or more implementation-specific sub-teams.
+Core developer sub-teams are given the "admin" role within the repositories that they manage. 
 Core developers are expected to review code contributions while adhering to the
 [core developer guide](CORE_DEV_GUIDE.md). New core developers can be nominated
 by any existing core developer. For details on that process see our core developer guide.
