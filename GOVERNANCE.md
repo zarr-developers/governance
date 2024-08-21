@@ -114,7 +114,8 @@ or via the [@zarr-developers/steering-council](https://github.com/orgs/zarr-deve
 ## Zarr Specification Core Devs
 
 The [Zarr spec](https://github.com/zarr-developers/zarr-specs) is managed by the Zarr Spec Core Devs.
-The committee memebers function in the role of "Core Devs" for the spec itself: they have the ability to merge changes to the spec and manage the process around evolving the spec.
+These people function in the role of "Core Devs" for the spec itself:
+they have the ability to merge changes to the spec and manage the process around evolving the spec.
 
 The initial spec core dev team is nominated by the steering council from the pool of currently active contributors across the project.
 
