@@ -88,7 +88,7 @@ twitter account, the [Zarr website](https://zarr-developers.github.io), and othe
 
 The steering council is currently fixed in size to five members. This number may be increased in
 the future, but will always be an odd number to ensure a simple majority vote outcome
-is always possible. The initial steering council of Zarr consists of
+is always possible. The current steering council of Zarr consists of
 
 * [Ryan Abernathey](https://github.com/rabernat)
 
@@ -111,75 +111,12 @@ be postponed until the new member has joined and another vote can be held.
 The Zarr steering council may be contacted at `zarr-steering-council@googlegroups.com`,
 or via the [@zarr-developers/steering-council](https://github.com/orgs/zarr-developers/teams/steering-council) GitHub team.
 
-## Zarr Implementation Council (ZIC)
+## Zarr Specification Core Devs
 
-The ZSC will invite Zarr implementations to participate in the management of the
-Zarr specification through the Zarr Implementation Council (ZIC).
-Implementations will be selected based on maturity of implementation as well as
-the activity of the developer community.  Preference will be given to open
-source *and open process* implementations.  Multiple implementations in a single
-programming language may be invited, or such implementations could choose to
-work together as a single community.
+The [Zarr spec](https://github.com/zarr-developers/zarr-specs) is managed by the Zarr Spec Core Devs.
+The committee memebers function in the role of "Core Devs" for the spec itself: they have the ability to merge changes to the spec and manage the process around evolving the spec.
 
-The current list of implementations which are participating in this process are
-(in alphabetical order)
-
- * [constantinpape/z5](https://github.com/constantinpape/z5)
-    represented by [Constantin Pape](https://github.com/constantinpape)
-    ([May 2022 – present](https://github.com/zarr-developers/governance/issues/26))
-
- * [google/tensorstore](https://github.com/google/tensorstore)
-    represented by [Jeremy Maitin-Shepard](https://github.com/jbms)
-    ([May 2022 – present](https://github.com/zarr-developers/governance/issues/22))
-
- * [freeman-lab/zarr-js](https://github.com/freeman-lab/zarr-js)
-    represented by [Anderson Banihirwe](https://github.com/andersy005)
-    ([May 2022 – present](https://github.com/zarr-developers/governance/issues/27))
-
- * [gzuidhof/zarr.js](https://github.com/gzuidhof/zarr.js)
-    represented by [Trevor Manz](https://github.com/manzt)
-    ([May 2022 – present](https://github.com/zarr-developers/governance/issues/28))
-
- * [JuliaIO/Zarr.jl](https://github.com/JuliaIO/Zarr.jl)
-    represented by [Fabian Gans](https://github.com/meggart)
-    ([May 2022 – present](https://github.com/zarr-developers/governance/issues/18))
-
- * [saalfeldlab/n5-zarr](https://github.com/saalfeldlab/n5-zarr)
-   represented by [Stephan Saalfeld](https://github.com/axtimwalde)
-   ([May 2022 – present](https://github.com/zarr-developers/governance/issues/25))
-
- * [sci-rs/zarr](https://github.com/sci-rs/zarr)
-   represented by [Andrew Champion](https://github.com/aschampion)
-   ([May 2022 - present](https://github.com/zarr-developers/governance/issues/20))
-
- * [Unidata/netcdf-c](https://github.com/Unidata/netcdf-c) and
-   [Unidata/netcdf-java](https://github.com/Unidata/netcdf-java)
-   represented by [Ward Fisher](https://github.com/wardf)
-   ([May 2022 - present](https://github.com/zarr-developers/governance/issues/21))
-
- * [xtensor-stack/xtensor-zarr](https://github.com/xtensor-stack/xtensor-zarr)
-   represented by [David Brochart](https://github.com/davidbrochart)
-   ([May 2022 - present](https://github.com/zarr-developers/governance/issues/23))
-
- * [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
-   represented by [Joe Hamman](https://github.com/jhamman)
-   (Jan 2024 - present) and seconded by
-   [Davis Bennett](https://github.com/d-v-b)
-
-The Core developers of each implementation will select one representative to the
-ZIC. It is up to each implementation to determine its own process for selecting
-its representatives.
-
-This member will represent that implementation in decisions regarding the Zarr
-Specification and other Zarr-wide contexts which require input from
-implementations.
-
-An additional representative should also be selected to act as an alternate
-for when the primary representative is not reachable.
-
-Continued membership on the ZIC is dependent on timely feedback and votes on
-relevant issues. The ZSC also reserves the right to remove implementations from
-the council.
+The initial spec core dev team is nominated by the steering council from the pool of currently active contributors across the project.
 
 # Decision Making Process
 
