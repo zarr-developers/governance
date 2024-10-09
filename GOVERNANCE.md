@@ -115,7 +115,7 @@ or via the [@zarr-developers/steering-council](https://github.com/orgs/zarr-deve
 
 The [Zarr spec](https://github.com/zarr-developers/zarr-specs) is managed by the Zarr Spec Core Devs.
 These people function in the role of "Core Devs" for the spec itself:
-they have the ability to merge changes to the spec and manage the process around evolving the spec.
+they have the ability to merge changes to the spec and manage the process around evolving the spec. The mandate of the spec core devs is to develop the Zarr specifications while minimizing disruption to those who depend on them, e.g. implementation developers, and the users of Zarr data. To this end the spec core devs are expected to take feedback, suggestions, and concerns from developers of Zarr implementations and Zarr users. Spec core devs should also _actively_ inform Zarr stakeholders of upcoming specification changes, in particular those changes that might affect those stakeholders. The composition of the spec core devs should reflect the diversity of Zarr implementations, to ensure that the spec evolves on a path that works for as many users as possible.
 
 The initial spec core dev team is nominated by the steering council from the pool of currently active contributors across the project.
 
