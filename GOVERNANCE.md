@@ -98,7 +98,7 @@ is always possible. The initial steering council of Zarr consists of
 
 * [Josh Moore](https://github.com/joshmoore)
 
-* [Ryan Williams](https://github.com/ryan-williams)
+* [Norman Rzepka](https://github.com/normanrz)
 
 The SC membership is revisited every January. SC members who do
 not actively engage with the SC duties are expected to resign. New members are
