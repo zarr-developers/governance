@@ -121,7 +121,7 @@ programming language may be invited, or such implementations could choose to
 work together as a single community.
 
 The current list of implementations which are participating in this process are
-(in alphabetical order)
+(in chronological order)
 
  * [google/tensorstore](https://github.com/google/tensorstore)
     represented by [Jeremy Maitin-Shepard](https://github.com/jbms)
@@ -151,7 +151,11 @@ The current list of implementations which are participating in this process are
 
  * [LDeakin/zarrs](https://github.com/LDeakin/zarrs)
    represented by [Lachlan Deakin](https://github.com/LDeakin)
-   (May 2025 - present) 
+   (May 2025 - present)
+ 
+ * [zarr-developers/VirtualiZarr](https://github.com/zarr-developers/VirtualiZarr)
+   represented by [Tom Nicholas](https://github.com/TomNicholas)
+   (May 2025 - present) and seconded by [Max Jones](https://github.com/maxrjones) (May 2025 - present)
 
 The Core developers of each implementation will select one representative to the
 ZIC. It is up to each implementation to determine its own process for selecting
