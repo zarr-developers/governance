@@ -6,7 +6,14 @@ to join us. Thank you for your numerous contributions to the project
 so far.
 
 Each Affiliated Software Project maintains its own Core Developers Group.
-You should now be on the GitHub team for the project you've been invited to.
+For new core developers, welcome! The core team appreciate the quality of
+your work, and enjoy working with you; we have therefore invited you
+to join us. Thank you for your numerous contributions to the project
+so far.
+
+Each Affiliated Software Project maintains its own Core Developers Group.
+If you recently joined the Core Developers Group of that project, congratulations! You should now be on that project's GitHub team.
+Whether or not you are a member of the Core Developers Group, here are some relevant resources on governance and the Core Developers Group role.
 See [GOVERNANCE.md](GOVERNANCE.md) for how the Core Developers Group fits
 into the overall Zarr governance framework, and
 [AFFILIATED_PROJECT_GOVERNANCE.md](AFFILIATED_PROJECT_GOVERNANCE.md) for

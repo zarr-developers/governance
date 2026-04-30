@@ -7,7 +7,7 @@ Affiliated Software Project. It is a meritocratic, consensus-based, and
 self-governing process, akin to the Apache model. The primary goal is to
 empower developers, streamline the development process, and maintain the
 project's stability and continuity while adhering to the overarching Zarr
-Project framework as a NumFocus-sponsored entity.
+Project framework as a NumFOCUS-sponsored entity.
 
 Projects are encouraged to start with this template and adapt it to their
 needs. Projects may deviate from this template for good reasons; we suggest
