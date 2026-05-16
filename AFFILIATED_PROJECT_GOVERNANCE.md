@@ -57,6 +57,7 @@ the Project Committee in an Apache-governed project.
     approval**).
   * **Removal:** Core Developers who become inactive can and should be
     removed via a **majority vote** of the existing Core Developers.
+    Core developers can resign at will.
 
 ### Core Developers Chair
 
