@@ -75,9 +75,22 @@ Zarr Project.
 
 ### Consensus-Seeking and Voting
 
-The project aims for **consensus** among Core Developers for all decisions.
-If consensus cannot be reached after discussion, decisions will be resolved
-by falling back on a **majority vote** of the Core Developers.
+Core developers are empowered to make decisions for the project, which mostly comes down to deciding whether or not to merge pull requests.
+Such decisions can range from very minor (e.g. fixing a type in the docs) to massive.
+
+Decision making is via the Consensus process, as defined by the [Apache Software Foundation](https://community.apache.org/committers/decisionMaking.html).
+
+The first step is Lazy Consensus:
+>  Essentially lazy consensus means that you don’t need to get explicit approval to proceed, but you need to be prepared to listen if someone objects.
+
+Lazy Consensus is achieved by stating your intent on a public GitHub issue. If no one objects within 72 hours, the developer can proceed with the proposed action. Lazy consensus is appropriate for minor, non-controversial changes.
+
+For larger, more impactful decisions, Consensus Building may be a more appropriate process.
+Consensus Building occurs via a discussion on GitHub where community members can share their feedback. Again, we follow the Apache way:
+
+> Sufficient time should be provided for members of the community to express opinions, and defend objections. It is customary for the initiator of the discussion to post a summary of the discussion once it appears that consensus has been reached, to ensure that their understanding of the will of the community is accurate.
+
+Finally, if consensus appears truly unreachable, a core developer may call for a vote, which occurs via a GitHub issue or PR.
 
 ### Lazy Consensus for Day-to-Day Operations
 
