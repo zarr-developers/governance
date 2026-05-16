@@ -124,7 +124,7 @@ The Zarr steering council may be contacted at
 ## Tier 2: The Zarr Specification — Spec Committee
 
 The Zarr Specification is the focal point that brings together all Zarr
-implementations. Because it addresses the on-disk format, decisions about the
+implementations. Because it addresses the format of data at rest, decisions about the
 spec will persist for decades. Ensuring responsible and careful evolution of
 the spec, balancing the need for innovation with the need for stability, is
 the mandate of the Spec Committee.
