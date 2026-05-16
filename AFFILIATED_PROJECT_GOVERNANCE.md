@@ -92,20 +92,8 @@ Consensus Building occurs via a discussion on GitHub where community members can
 
 Finally, if consensus appears truly unreachable, a core developer may call for a vote, which occurs via a GitHub issue or PR.
 
-### Lazy Consensus for Day-to-Day Operations
 
-Lazy Consensus is used for most day-to-day decisions, allowing the majority
-of contributions to proceed efficiently.
 
-* **Minor Documentation Changes** (e.g. typo fixes): Require approval by a
-  Core Developer and **no disagreement or requested changes** from any Core
-  Developer within a reasonable time (e.g. one working day).
-* **Code Changes and Major Documentation Changes:** Require agreement by
-  **one** Core Developer and **no disagreement or requested changes** from
-  any Core Developer within a reasonable time (e.g. a few working days).
-* **Objections:** If a Core Developer raises an objection to a proposal
-  under lazy consensus, the proposal is escalated to the full group for a
-  consensus-seeking discussion or a majority vote.
 
 ## Code of Conduct
 
