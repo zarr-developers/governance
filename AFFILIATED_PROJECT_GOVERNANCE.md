@@ -51,7 +51,7 @@ the Project Committee in an Apache-governed project.
 * **Membership is Merit-Based:** Any contributor is eligible to join the
   Core Developers.
   * **Nomination:** Existing Core Developers can nominate new members.
-    Nominations must be based on clear evidence of **sustained, quality
+    Nominations should be based on clear evidence of **sustained, quality
     contribution** to the project. Approval is subject to vote by the
     existing Core Developers (ideally consensus, but at minimum **majority
     approval**).
