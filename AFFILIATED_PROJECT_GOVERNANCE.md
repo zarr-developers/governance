@@ -65,6 +65,8 @@ Larger projects should have a Chair. The Chair's role is to act as a
 **coordinator and facilitator** for the group's activities and discussions.
 The Chair holds no additional authority over other Core Developers. The
 Chair is optional for smaller projects.
+A chair is selected by a consensus of core developers or, if consensus is not reachable, a majority vote.
+Rotation of chair duties is encouraged but not required.
 
 ## Decision Making Process
 
