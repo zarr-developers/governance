@@ -14,21 +14,21 @@ resolved.
 
 The Zarr ecosystem consists of the following entities:
 
-1. **The Zarr Project** — The umbrella entity fiscally sponsored by NumFocus.
-   NumFocus-sponsored projects are required to have a formal governance process
-   and may receive financial donations via the NumFocus 501(c)(3).
+1. **The Zarr Project** — The umbrella entity fiscally sponsored by NumFOCUS.
+   NumFOCUS-sponsored projects are required to have a formal governance process
+   and may receive financial donations via the NumFOCUS 501(c)(3).
 2. **The Zarr Specification** — A document defining the Zarr format for
    N-dimensional typed arrays.
 3. **Affiliated Software Projects** — Individual software projects (including
    the specification itself, as well as implementations, tools, and conventions
    projects) which are part of the Zarr Project. These projects are eligible
-   to receive funds via NumFocus and are subject to the overarching Project
+   to receive funds via NumFOCUS and are subject to the overarching Project
    governance framework.
    This list of affiliated projects may evolve over time.
 4. **Non-Affiliated Software Projects** — Other software projects which
    implement Zarr or interact with it in some way, but are not under the
    umbrella of the Zarr Project. Non-affiliated projects are not eligible
-   for direct funding via NumFocus.
+   for direct funding via NumFOCUS.
 
 Governance of the Zarr ecosystem is organized into three tiers, described
 below.
@@ -72,7 +72,7 @@ responsibilities to ensure the smooth running of the project.
 
 The ZSC's responsibilities are:
 
-1. Interface between the Project and its fiscal sponsor (NumFocus).
+1. Interface between the Project and its fiscal sponsor (NumFOCUS).
 2. Manage the copyrights and trademarks associated with the Project.
 3. Manage the list of Affiliated Software Projects, including decisions about
    new affiliations and removal of affiliations.
@@ -177,7 +177,7 @@ governance, the ZSC reserves the right to remove its affiliation.
 
 All Affiliated Software Projects must adhere to the Zarr Project's
 [Code of Conduct](https://github.com/zarr-developers/.github/blob/main/CODE_OF_CONDUCT.md),
-which is a requirement for NumFocus fiscal sponsorship.
+which is a requirement for NumFOCUS fiscal sponsorship.
 
 ## Affiliated Software Project Criteria
 
@@ -194,7 +194,7 @@ overall strategic direction of the Project.
 Non-affiliated projects may continue to operate however they wish, outside the
 boundaries of this framework, with whatever governance (or lack thereof) they
 choose. Non-affiliated projects are not eligible for direct funding via
-NumFocus. We welcome and encourage all Zarr-related projects to become
+NumFOCUS. We welcome and encourage all Zarr-related projects to become
 affiliated.
 
 # Decision Making Process

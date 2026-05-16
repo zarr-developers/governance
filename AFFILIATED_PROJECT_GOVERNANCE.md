@@ -99,7 +99,7 @@ Finally, if consensus appears truly unreachable, a core developer may call for a
 
 All Affiliated Software Projects must adhere to the Zarr Project's
 [Code of Conduct](https://github.com/zarr-developers/.github/blob/main/CODE_OF_CONDUCT.md),
-which is a requirement for NumFocus fiscal sponsorship.
+which is a requirement for NumFOCUS fiscal sponsorship.
 
 ## License and Attribution
 
