@@ -24,6 +24,7 @@ The Zarr ecosystem consists of the following entities:
    projects) which are part of the Zarr Project. These projects are eligible
    to receive funds via NumFocus and are subject to the overarching Project
    governance framework.
+   This list of affiliated projects may evolve over time.
 4. **Non-Affiliated Software Projects** — Other software projects which
    implement Zarr or interact with it in some way, but are not under the
    umbrella of the Zarr Project. Non-affiliated projects are not eligible
