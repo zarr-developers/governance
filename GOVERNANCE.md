@@ -241,6 +241,7 @@ operations. The following principles guide how governance maps to GitHub:
 * **Principle of least privilege**: Different actors should have only the
   minimal privileges required to perform their function, minimizing the blast
   radius of any potential security threat.
+  In practice, this means that core developers have admin right on their project's repo, but not on other repos within the Zarr Project org.
 * **Centralized organization**: All Affiliated Software Projects live within
   the `zarr-developers` GitHub organization, providing a central entry point
   and allowing projects to share resources. Non-affiliated projects should not
