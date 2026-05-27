@@ -72,6 +72,7 @@ responsibilities to ensure the smooth running of the project.
 
 The ZSC's responsibilities are:
 
+0. To be stewards of the Zarr organization by pursuing its mission and maintaining its values.
 1. Interface between the Project and its fiscal sponsor (NumFOCUS).
 2. Manage the copyrights and trademarks associated with the Project.
 3. Manage the list of Affiliated Software Projects, including decisions about
@@ -171,9 +172,9 @@ This template establishes a meritocratic, consensus-based process akin to the
 Apache model.
 
 Projects are free to evolve and change their governance as they see fit,
-provided it remains within the accepted norms of community open-source
-projects. If an Affiliated Software Project abandons open and transparent
-governance, the ZSC reserves the right to remove its affiliation.
+provided it remains within the accepted norms of community open-source.
+Projects are welcome to seek guidance on accepted governance from the ZSC as needed.
+The ZSC remains solely responsible for managing project affiliation status.
 
 All Affiliated Software Projects must adhere to the Zarr Project's
 [Code of Conduct](https://github.com/zarr-developers/.github/blob/main/CODE_OF_CONDUCT.md),
@@ -181,7 +182,8 @@ which is a requirement for NumFOCUS fiscal sponsorship.
 
 ## Affiliated Software Project Criteria
 
-To be considered for affiliation with the Zarr Project, a project must:
+To be considered for affiliation with the Zarr Project, the ZSC takes into account a variety of criteria
+including, but not limited to:
 
 1. Be open source.
 2. Be directly related to Zarr (e.g. an implementation, tool, extension, or

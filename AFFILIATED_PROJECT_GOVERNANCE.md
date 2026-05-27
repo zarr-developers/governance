@@ -46,8 +46,7 @@ the Project Committee in an Apache-governed project.
   decisions, such as accepting or rejecting pull requests, and managing
   administrative actions within the project's repositories (e.g.
   adding/removing members). A group of one is acceptable for small projects.
-* **Authority:** The Core Developers Group is **self-governing** and its
-  membership is **not overseen by the Zarr Steering Council (ZSC)**.
+* **Authority:** The Core Developers Group is **self-governing**. Only in the case of dispute resolution may the Zarr Steering Council (ZSC) intercede.
 * **Membership is Merit-Based:** Any contributor is eligible to join the
   Core Developers.
   * **Nomination:** Existing Core Developers can nominate new members.
