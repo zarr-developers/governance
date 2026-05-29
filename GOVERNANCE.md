@@ -1,7 +1,7 @@
 # Abstract
 
 The purpose of this document is to formalize the governance process used by the
-`Zarr` project, to clarify how decisions are made and how the various
+Zarr Project, to clarify how decisions are made and how the various
 elements of our community interact.
 
 This is a consensus-based community project. Anyone with an interest in the
@@ -10,15 +10,30 @@ participate in the decision making process. This document describes how that
 participation takes place, how to find consensus, and how deadlocks are
 resolved.
 
+# The Zarr Ecosystem
+
+The Zarr ecosystem consists of the following entities:
+
+1. **The Zarr Project** — The umbrella entity fiscally sponsored by NumFOCUS.
+   NumFOCUS-sponsored projects are required to have a formal governance process
+   and may receive financial donations via the NumFOCUS 501(c)(3).
+2. **The Zarr Specification** — A document defining the Zarr format for
+   N-dimensional typed arrays.
+3. **Affiliated Software Projects** — Individual software projects (including
+   the specification itself, as well as implementations, tools, and conventions
+   projects) which are part of the Zarr Project. These projects are eligible
+   to receive funds via NumFOCUS and are subject to the overarching Project
+   governance framework.
+   This list of affiliated projects may evolve over time.
+4. **Non-Affiliated Software Projects** — Other software projects which
+   implement Zarr or interact with it in some way, but are not under the
+   umbrella of the Zarr Project. Non-affiliated projects are not eligible
+   for direct funding via NumFOCUS.
+
+Governance of the Zarr ecosystem is organized into three tiers, described
+below.
+
 # Roles And Responsibilities
-
-## The Project
-
-The Zarr project consists of the core [Zarr specification](https://github.com/zarr-developers/zarr-specs/)
-and the various [implementations](https://zarr.dev/implementations/)
-of Zarr in different programming languages that are hosted within this
-organization. Other community implementations exist but do not follow this
-governance process.
 
 ## The Community
 
@@ -34,7 +49,7 @@ project in concrete ways, such as:
   via a GitHub pull request to any https://github.com/zarr-developers repository;
 - reporting a GitHub issue
   to any https://github.com/zarr-developers repository;
-- discussing examples or usage issues under the #zarr tag on StackOverflow 
+- discussing examples or usage issues under the #zarr tag on StackOverflow
   (like "How do I do X in Zarr?").
 
 among other possibilities. Any community member can become a contributor, and
@@ -49,45 +64,41 @@ the Contributing Guide and Code of Conduct, is considered a contributor and can 
 to be added to the relevant GitHub team. Alternatively, any existing member
 of the community can invite a contributor to join.
 
-## Core developers
+## Tier 1: The Zarr Project — Zarr Steering Council (ZSC)
 
-Core developers are community members that have demonstrated continued
-commitment to the project through ongoing contributions to the specification,
-governance, and / or implementions of Zarr.
-The have shown they can be trusted to maintain the project with care.
-Each implementation has its own set of core developers.
-Becoming a core developer allows contributors to merge approved pull requests, cast votes
-for and against merging a pull-request, and be involved in deciding major
-changes to the API, and thereby more easily carry on with their project related
-activities. Core developers appear as organization members on the Zarr
-[GitHub organization](https://github.com/orgs/zarr-developers/people).
-All core developers belong to the
-[@zarr-developers/core-devs](https://github.com/orgs/zarr-developers/teams/core-devs) GitHub team
-either directly or via one or more implementation-specific sub-teams.
-Core developer sub-teams are given the "admin" role within the repositories that they manage. 
-Core developers are expected to review code contributions while adhering to the
-[core developer guide](CORE_DEV_GUIDE.md). New core developers can be nominated
-by any existing core developer. For details on that process see our core developer guide.
+The Zarr Project as a whole is governed by the Zarr Steering Council (ZSC).
+ZSC members are core developers who have additional
+responsibilities to ensure the smooth running of the project.
 
-## Zarr Steering Council
+The ZSC's responsibilities are:
 
-The Zarr Steering Council (ZSC) members are core developers who have additional
-responsibilities to ensure the smooth running of the project. ZSC members are
-expected to participate in strategic planning, approve changes to the
-governance model, and make decisions about funding granted to the project
-itself. (Funding to community members is theirs to pursue and manage). The
-purpose of the ZSC is to ensure smooth progress from the big-picture
-perspective. Changes that impact the full project require analysis informed by
-long experience with both the project and the larger ecosystem. When the core
-developer community (including the ZSC members) fails to reach such a consensus
-in a reasonable timeframe, the SC is the entity that resolves the issue.
+0. To be stewards of the Zarr organization by pursuing its mission and maintaining its values.
+1. Interface between the Project and its fiscal sponsor (NumFOCUS).
+2. Manage the copyrights and trademarks associated with the Project.
+3. Manage the list of Affiliated Software Projects, including decisions about
+   new affiliations and removal of affiliations.
+4. Manage responsibilities which do not belong to a specific Affiliated
+   Software Project (e.g., at the time of this writing, the Zarr website; as
+   well as the zarr-developers GitHub organization, social media accounts, and
+   similar Zarr-owned resources) in order to ensure smooth operations and
+   effective collaboration.
+5. Serve as the final escalation point for disputes that cannot be resolved
+   within an individual Affiliated Software Project or the Spec Committee.
 
-Members of the steering council also have the "owner" role within the [zarr-developers GitHub organization](https://github.com/zarr-developers/)
-and are ultimately responsible for managing the [zarr-developers](https://github.com/zarr-developers) GitHub account, the [@zarr_dev](https://twitter.com/zarr_dev)
-twitter account, the [Zarr website](https://zarr-developers.github.io), and other similar Zarr-owned resources.
+The ZSC does **not** have authority over the day-to-day decisions of individual
+Affiliated Software Projects or the Spec Committee, except as explicitly stated
+above.
 
-The steering council currently contains five members. This number may be increased in
-the future. The current steering council consists of
+Members of the steering council also have the "owner" role within the
+[zarr-developers GitHub organization](https://github.com/zarr-developers/)
+and are ultimately responsible for managing the
+[zarr-developers](https://github.com/zarr-developers) GitHub account, the
+[@zarr_dev](https://twitter.com/zarr_dev) twitter account, the
+[Zarr website](https://zarr-developers.github.io), and other similar
+Zarr-owned resources.
+
+The steering council currently contains five members. This number may be
+increased in the future. The current steering council consists of
 
 * [Ryan Abernathey](https://github.com/rabernat)
 
@@ -99,74 +110,94 @@ the future. The current steering council consists of
 
 * [Norman Rzepka](https://github.com/normanrz)
 
-SC members who do
-not actively engage with the SC duties are expected to resign. New members are
-added by nomination by a core developer. Nominees should have demonstrated
-long-term, continued commitment to the project and its mission and values. A
-nomination will result in discussion that cannot take more than a month and
-then admission to the SC by consensus. During that time deadlocked votes of the SC will
-be postponed until the new member has joined and another vote can be held.
+ZSC members who do not actively engage with the ZSC duties are expected to
+resign. New members are added by nomination by an existing ZSC member. Nominees
+should have demonstrated long-term, continued commitment to the project and
+its mission and values. A nomination will result in discussion that cannot take
+more than a month and then admission to the ZSC by consensus. During that time
+deadlocked votes of the ZSC will be postponed until the new member has joined
+and another vote can be held.
 
-The Zarr steering council may be contacted at `zarr-steering-council@googlegroups.com`,
-or via the [@zarr-developers/steering-council](https://github.com/orgs/zarr-developers/teams/steering-council) GitHub team.
+The Zarr steering council may be contacted at
+`zarr-steering-council@googlegroups.com`, or via the
+[@zarr-developers/steering-council](https://github.com/orgs/zarr-developers/teams/steering-council) GitHub team.
 
-## Zarr Implementation Council (ZIC)
+## Tier 2: The Zarr Specification — Spec Committee
 
-The ZSC will invite Zarr implementations to participate in the management of the
-Zarr specification through the Zarr Implementation Council (ZIC).
-Implementations will be selected based on maturity of implementation as well as
-the activity of the developer community.  Preference will be given to open
-source *and open process* implementations.  Multiple implementations in a single
-programming language may be invited, or such implementations could choose to
-work together as a single community.
+The Zarr Specification is the focal point that brings together all Zarr
+implementations. Because it addresses the format of data at rest, decisions about the
+spec will persist for decades. Ensuring responsible and careful evolution of
+the spec, balancing the need for innovation with the need for stability, is
+the mandate of the Spec Committee.
 
-The current list of implementations which are participating in this process are
-(in alphabetical order)
+### Responsibilities
 
- * [google/tensorstore](https://github.com/google/tensorstore)
-    represented by [Jeremy Maitin-Shepard](https://github.com/jbms)
-    ([May 2022 – present](https://github.com/zarr-developers/governance/issues/22))
+The Spec Committee is responsible for:
 
- * [gzuidhof/zarr.js](https://github.com/gzuidhof/zarr.js)
-    represented by [Trevor Manz](https://github.com/manzt)
-    ([May 2022 – present](https://github.com/zarr-developers/governance/issues/28))
+1. Managing changes to the Zarr core Specification.
+2. Maintaining the list of Zarr Extensions.
+3. Overseeing the ZEP process for specification changes.
 
- * [JuliaIO/Zarr.jl](https://github.com/JuliaIO/Zarr.jl)
-    represented by [Fabian Gans](https://github.com/meggart)
-    ([May 2022 – present](https://github.com/zarr-developers/governance/issues/18))
+### Membership
 
- * [saalfeldlab/n5-zarr](https://github.com/saalfeldlab/n5-zarr)
-   represented by [Stephan Saalfeld](https://github.com/axtimwalde)
-   ([May 2022 – present](https://github.com/zarr-developers/governance/issues/25))
+Initial membership of the Spec Committee was drawn from the members of both
+the former ZSC and the former Zarr Implementation Council (ZIC). Members are
+encouraged to resign if they do not plan to actively participate. It is
+expected that the Spec Committee will contain members of the most active Zarr
+implementations, including both Affiliated and Non-affiliated Software
+Projects.
 
- * [Unidata/netcdf-c](https://github.com/Unidata/netcdf-c) and
-   [Unidata/netcdf-java](https://github.com/Unidata/netcdf-java)
-   represented by [Ward Fisher](https://github.com/wardf)
-   ([May 2022 - present](https://github.com/zarr-developers/governance/issues/21))
+### Self-Governance
 
- * [zarr-developers/zarr-python](https://github.com/zarr-developers/zarr-python)
-   represented by [Joe Hamman](https://github.com/jhamman)
-   (Jan 2024 - present) and seconded by
-   [Davis Bennett](https://github.com/d-v-b)
+The Spec Committee is responsible for establishing and documenting its own
+operational governance model, including:
 
- * [LDeakin/zarrs](https://github.com/LDeakin/zarrs)
-   represented by [Lachlan Deakin](https://github.com/LDeakin)
-   (May 2025 - present) 
+* Decision-making procedures (e.g. voting mechanisms, quorum requirements,
+  and use of lazy consensus)
+* Membership criteria and review processes
+* Meeting cadence and participation expectations
 
-The Core developers of each implementation will select one representative to the
-ZIC. It is up to each implementation to determine its own process for selecting
-its representatives.
+This governance model supersedes the approval processes previously defined in
+ZEP0 for core specification changes.
 
-This member will represent that implementation in decisions regarding the Zarr
-Specification and other Zarr-wide contexts which require input from
-implementations.
+## Tier 3: Affiliated Software Projects — Core Developers Groups
 
-An additional representative should also be selected to act as an alternate
-for when the primary representative is not reachable.
+Each Affiliated Software Project is governed independently by its own Core
+Developers Group (CDG). The CDG is self-governing, and its membership is
+not overseen by the ZSC.
 
-Continued membership on the ZIC is dependent on timely feedback and votes on
-relevant issues. The ZSC also reserves the right to remove implementations from
-the council.
+A default governance template for Affiliated Software Projects is provided
+in [AFFILIATED_PROJECT_GOVERNANCE.md](AFFILIATED_PROJECT_GOVERNANCE.md).
+This template establishes a meritocratic, consensus-based process akin to the
+Apache model.
+
+Projects are free to evolve and change their governance as they see fit,
+provided it remains within the accepted norms of community open-source.
+Projects are welcome to seek guidance on accepted governance from the ZSC as needed.
+The ZSC remains solely responsible for managing project affiliation status.
+
+All Affiliated Software Projects must adhere to the Zarr Project's
+[Code of Conduct](https://github.com/zarr-developers/.github/blob/main/CODE_OF_CONDUCT.md),
+which is a requirement for NumFOCUS fiscal sponsorship.
+
+## Affiliated Software Project Criteria
+
+To be considered for affiliation with the Zarr Project, the ZSC takes into account a variety of criteria
+including, but not limited to:
+
+1. Be open source.
+2. Be directly related to Zarr (e.g. an implementation, tool, extension, or
+   convention).
+3. Demonstrate a critical mass of sustained development activity.
+
+The ZSC will make decisions about affiliation based on these criteria and the
+overall strategic direction of the Project.
+
+Non-affiliated projects may continue to operate however they wish, outside the
+boundaries of this framework, with whatever governance (or lack thereof) they
+choose. Non-affiliated projects are not eligible for direct funding via
+NumFOCUS. We welcome and encourage all Zarr-related projects to become
+affiliated.
 
 # Decision Making Process
 
@@ -178,48 +209,51 @@ https://github.com/orgs/zarr-developers/teams/core-devs
 
 Decisions should be made in accordance with the mission and values of the Zarr project.
 
-Zarr uses a “consensus-seeking” process for making decisions. The group tries to
-find a resolution that has no open objections among core developers. Core
-developers are expected to distinguish between fundamental objections to a
-proposal and minor perceived flaws that they can live with and not hold up the
-decision-making process for the latter. If no option can be found without
-objections, the decision is escalated to the SC, which will use consensus to
-come to a resolution. In the unlikely event that there is still a deadlock, the
-proposal will move forward if it has the support of a simple majority of the
-ZSC.
+## Project-Level Decisions
 
-Decisions (in addition to adding core developers and SC membership as above) are
-made according to the following rules:
+Decisions that affect the Zarr Project as a whole (e.g. governance changes,
+affiliation decisions, management of shared resources) are made by the ZSC
+using a consensus-seeking process. If consensus cannot be reached, a simple
+majority of the ZSC decides.
 
-- **Minor documentation changes**, such as typo fixes, or addition / correction of a
-  sentence, require approval by a core developer *and* no disagreement or requested
-  changes by a core developer on the issue or pull request page (lazy
-  consensus). Core developers are expected to give "reasonable time" after approval and before merging for others
-  to give their opinion on the pull request if they’re not confident others
-  would agree, where "reasonable time" is likely one working day.
+## Specification Decisions
 
-- **Code changes and major documentation changes** require agreement by *one*
-  core developer *and* no disagreement or requested changes by a core developer
-  on the issue or pull-request page (lazy consensus). For all changes of this type,
-  core developers are expected to give "reasonable time" after approval and before
-  merging for others to weigh in on the pull request in its final state, where
-  "reasonable time" is likely a few working days.
+Changes to the Zarr Specification follow the [ZEP](https://zarr.dev/zeps)
+process and are governed by the Spec Committee according to its own governance
+model. Please read [ZEP0000](https://zarr.dev/zeps/active/ZEP0000.html)
+for the general ZEP process.
 
-- **Changes to APIs** require a dedicated issue on the related
-  issue tracker, e.g. [zarr-python](https://github.com/zarr-developers/zarr-python/issues), and follow the
-  decision-making process outlined above, though "reasonable time" is likely extended
-  to at least a week.
+## Affiliated Project Decisions
 
-- **Changes to the specification** follow the [ZEP](https://zarr.dev/zeps)
-  process. Please read [ZEP0000](https://zarr.dev/zeps/active/ZEP0000.html)
-  for details and instructions to submit a new ZEP.
+Each Affiliated Software Project makes its own decisions according to its
+own governance document. The default governance template
+([AFFILIATED_PROJECT_GOVERNANCE.md](AFFILIATED_PROJECT_GOVERNANCE.md))
+provides a recommended starting point based on lazy consensus and majority
+vote fallback.
 
-- **Changes to this governance model or our mission, vision, and values**
-  require a  dedicated issue on our [issue tracker](https://github.com/zarr-developers/governance/issues)
-  and follow the [ZEP](https://zarr.dev/zeps) process, with "reasonable time"
-  being at least two weeks. However, if there is unanimous agreement from core
-  developers on the change, it can move forward faster.
+## The Role of GitHub
 
-If an objection is raised on a lazy consensus, the proposer can appeal to the
-community and core developers and the change can be approved or rejected by
-escalating to the SC.
+The use of GitHub by the Zarr Project is an implementation detail. GitHub
+roles, groups, and repos do not have any formal status within the Zarr
+governance framework.
+
+In practice, the Zarr Project is heavily reliant on GitHub for day-to-day
+operations. The following principles guide how governance maps to GitHub:
+
+* **Principle of least privilege**: Different actors should have only the
+  minimal privileges required to perform their function, minimizing the blast
+  radius of any potential security threat.
+  In practice, this means that core developers have admin right on their project's repo, but not on other repos within the Zarr Project org.
+* **Centralized organization**: All Affiliated Software Projects live within
+  the `zarr-developers` GitHub organization, providing a central entry point
+  and allowing projects to share resources. Non-affiliated projects should not
+  have repositories in the `zarr-developers` organization; every repository in
+  the org should either belong to an affiliated project or default to ZSC
+  oversight.
+* **Project-level autonomy**: Each Affiliated Software Project manages its own
+  repos and GitHub team membership. Ownership of the GitHub org as a whole
+  (including creation of new repos and teams) is managed by the ZSC.
+* **Automated membership management**: To avoid the ZSC becoming a bottleneck
+  on project autonomy, a GitHub bot or similar automation will be used to allow
+  each Affiliated Software Project to manage its own team membership
+  independently.

@@ -1,13 +1,23 @@
 # Core Developer Guide
 
-Welcome, new core developer!  The core team appreciate the quality of
+Welcome, new core developer! The core team appreciate the quality of
 your work, and enjoy working with you; we have therefore invited you
-to join us.  Thank you for your numerous contributions to the project
+to join us. Thank you for your numerous contributions to the project
 so far.
 
-You can see a list of all the current core developers on our
-[@zarr-developers/core-devs](https://github.com/orgs/zarr-developers/teams/core-devs)
-GitHub team. You should now be on that list too.
+Each Affiliated Software Project maintains its own Core Developers Group.
+For new core developers, welcome! The core team appreciate the quality of
+your work, and enjoy working with you; we have therefore invited you
+to join us. Thank you for your numerous contributions to the project
+so far.
+
+Each Affiliated Software Project maintains its own Core Developers Group.
+If you recently joined the Core Developers Group of that project, congratulations! You should now be on that project's GitHub team.
+Whether or not you are a member of the Core Developers Group, here are some relevant resources on governance and the Core Developers Group role.
+See [GOVERNANCE.md](GOVERNANCE.md) for how the Core Developers Group fits
+into the overall Zarr governance framework, and
+[AFFILIATED_PROJECT_GOVERNANCE.md](AFFILIATED_PROJECT_GOVERNANCE.md) for
+the default governance template for Affiliated Software Projects.
 
 This document offers guidelines for your new role.
 As a core team member, you gain the responsibility of shepherding
@@ -156,31 +166,30 @@ sparingly for discussions that are required to be private, such as voting on new
 
 ## Inviting New Core Members
 
-Any core member may nominate other contributors to join the core team.
-While there is no hard-and-fast rule about who can be nominated, ideally,
-they should have: been part of the project for at least two months, contributed
-significant changes of their own, contributed to the discussion and
-review of others' work, and collaborated in a way befitting our
-community values.
+Any core member may nominate other contributors to join their project's
+Core Developers Group. While there is no hard-and-fast rule about who can
+be nominated, ideally, they should have: been part of the project for at
+least two months, contributed significant changes of their own, contributed
+to the discussion and review of others' work, and collaborated in a way
+befitting our community values.
 
-To make a nomination, email the private Zarr developer mailing list
-with the name and GitHub handle of who you wish to nominate. All developers
-should then vote on whether to accept or reject the nomination, with a voting
-period of three weeks. While it is expected that most votes will be unanimous,
-a majority of the cast votes is enough.
-
-After three weeks has elapsed, if the majority of cast votes is in favour,
-the current developer who made the nomination should email the succesful nominee
-thanking them for their contributions so far, and asking if they would like to join the team.
+Nominations must be based on evidence of sustained, quality contribution
+to the project. The specific nomination and voting process is determined
+by each project's governance document. The default process (see
+[AFFILIATED_PROJECT_GOVERNANCE.md](AFFILIATED_PROJECT_GOVERNANCE.md)) calls
+for approval by majority vote of existing Core Developers, with consensus
+preferred.
 
 ## Offboarding Core Members
 
-Core developers are expected to regularly participate in the project. Participation is defined
-as any of the following activities: contributions to the project's source code or documentation,
-engagement in discussions on the project's issue tracker, code reviews, and user support. Core
-developers may choose to become emeritus core developers and suspend their approval and voting rights
-until they become active again. If a core developer becomes inactive in the project for a period of
-one year, they may be removed or classified as emeritus by the core developer team with a majority vote.
+Core developers are expected to regularly participate in the project.
+Participation is defined as any of the following activities: contributions
+to the project's source code or documentation, engagement in discussions on
+the project's issue tracker, code reviews, and user support. Core developers
+may choose to become emeritus core developers and suspend their approval and
+voting rights until they become active again. If a core developer becomes
+inactive in the project for a period of one year, they may be removed or
+classified as emeritus by the Core Developers Group with a majority vote.
 
 ## Contribute To This Guide!
 
