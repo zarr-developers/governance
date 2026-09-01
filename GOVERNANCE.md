@@ -217,7 +217,7 @@ using a consensus-seeking process. If consensus cannot be reached, a simple
 majority of the ZSC decides. To ensure timely decisions, this is implemented
 as follows:
 
-* A motion can be porposed in a ZSC meeting or by email to the ZSC group.
+* A motion can be proposed in a ZSC meeting or by email to the ZSC group.
 * If a motion is proposed in a ZSC meeting and not all members are present,
   an email should also be sent to the ZSC group proposing the motion in writing
   so all members have visibility.
