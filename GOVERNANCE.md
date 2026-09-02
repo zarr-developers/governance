@@ -214,7 +214,20 @@ Decisions should be made in accordance with the mission and values of the Zarr p
 Decisions that affect the Zarr Project as a whole (e.g. governance changes,
 affiliation decisions, management of shared resources) are made by the ZSC
 using a consensus-seeking process. If consensus cannot be reached, a simple
-majority of the ZSC decides.
+majority of the ZSC decides. To ensure timely decisions, this is implemented
+as follows:
+
+* A motion can be proposed in a ZSC meeting or by email to the ZSC group.
+* If a motion is proposed in a ZSC meeting and not all members are present,
+  an email should also be sent to the ZSC group proposing the motion in writing
+  so all members have visibility.
+* ZSC members can vote on the motion either verbally in a meeting or by email.
+* Two weeks are allowed for voting after a motion is proposed.
+* If after two weeks a majority of the ZSC has voted and all votes agree,
+  the majority vote becomes the decision.
+* If there are any disagreements within the initial two week voting period, a
+  further two weeks is allowed to try and reach consensus.
+* If after 4 weeks there is no consensus, the majority vote becomes the decision.
 
 ## Specification Decisions
 
