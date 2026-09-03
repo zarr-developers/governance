@@ -122,6 +122,27 @@ The Zarr steering council may be contacted at
 `zarr-steering-council@googlegroups.com`, or via the
 [@zarr-developers/steering-council](https://github.com/orgs/zarr-developers/teams/steering-council) GitHub team.
 
+### Emeritus Members
+
+In recognition of sustained contributions to the Zarr Project over an
+extended period of time, a departing ZSC member may be granted Emeritus
+status.
+
+Emeritus status is granted by consensus of the active ZSC, typically at the
+time a member steps down. It may also be granted retroactively to a former
+member on nomination by an active ZSC member.
+
+Emeritus members:
+
+- Retain access to ZSC communication channels and are welcome to attend ZSC
+  meetings.
+- May weigh in on discussions and decisions of particular interest to them.
+- Do **not** have voting rights and are not counted toward quorum or
+  consensus on ZSC decisions.
+
+Emeritus status is a recognition of past service and does not carry any of
+the responsibilities or authority of active ZSC membership described above.
+
 ## Tier 2: The Zarr Specification — Spec Committee
 
 The Zarr Specification is the focal point that brings together all Zarr
