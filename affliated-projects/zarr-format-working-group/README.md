@@ -40,7 +40,11 @@ The Working Group is responsible for:
 * coordinating with implementers and the wider community;  
 * approving Zarr Extensions;  
 * approving and publishing new releases of the Zarr Format Specification.
-
+The Working Group has administrative privileges over the following resources:
+ * the [`@zarr-developers/zarr-specs`](https://github.com/zarr-developers/zarr-specs) GitHub repository
+ * the [`@zarr-developers/zarr-extensions`](https://github.com/zarr-developers/zarr-extensions) GitHub repository
+ * the [site hosting the published specification](https://zarr-specs.readthedocs.io).
+ * the [`@zarr-developers/format-wg`](https://github.com/orgs/zarr-developers/teams/format-wg) GitHub team 
 ### Chair
 
 The Working Group may appoint a Chair and Vice Chair from among its Members through a Formal Vote (see below).
