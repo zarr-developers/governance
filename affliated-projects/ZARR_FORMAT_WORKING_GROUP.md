@@ -24,15 +24,15 @@ Non-normative: The composition of the Working Group Members should seek to repre
 
 Current Members are:
 
-- Josh Moore  
-- Norman Rzepka  
-- Jeremy Maitin-Shepard  
-- Lachlan Deakin  
-- Davis Bennett
+- [Josh Moore](https://github.com/joshmoore)
+- [Norman Rzepka](https://github.com/normanrz)
+- [Jeremy Maitin-Shepard](https://github.com/jbms)
+- [Lachlan Deakin](https://github.com/ldeakin)
+- [Davis Bennett](https://github.com/d-v-b)
 
 The Working Group is responsible for:
 
-* maintaining the [Zarr Format Specification](http://github.com/zarr-developers/zarr-specs) including the [Zarr Extensions Registry](https://github.com/zarr-developers/zarr-extensions/);  
+* maintaining the [Zarr Format Specification](http://github.com/zarr-developers/zarr-specs/) including the [Zarr Extensions Registry](https://github.com/zarr-developers/zarr-extensions/);  
 * evaluating proposals to modify the specification;  
 * making decisions regarding the evolution of the specification;  
 * documenting significant decisions and their rationale;  
