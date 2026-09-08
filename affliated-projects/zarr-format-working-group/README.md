@@ -24,11 +24,16 @@ Non-normative: The composition of the Working Group Members should seek to repre
 
 Current Members are:
 
-- [Josh Moore](https://github.com/joshmoore)
-- [Norman Rzepka](https://github.com/normanrz)
-- [Jeremy Maitin-Shepard](https://github.com/jbms)
-- [Lachlan Deakin](https://github.com/ldeakin)
-- [Davis Bennett](https://github.com/d-v-b)
+
+| Member | Zarr Implementations Represented | 
+| - | - |
+[Josh Moore](https://github.com/joshmoore)* | | 
+[Norman Rzepka](https://github.com/normanrz)* | [`zarr-java`](https://github.com/zarr-developers/zarr-java) (Java), [`zarr`](https://github.com/zarr-developers/zarr-python) (Python)
+[Jeremy Maitin-Shepard](https://github.com/jbms) | [TensorStore](https://github.com/google/tensorstore) (C++, Python)
+[Lachlan Deakin](https://github.com/ldeakin) | [`zarrs`](https://github.com/zarrs/zarrs) (Rust)
+[Davis Bennett](https://github.com/d-v-b) | [`zarr`](https://github.com/zarr-developers/zarr-python) (Python) |
+
+_*: denotes a member of the Zarr Steering Council_
 
 The Working Group is responsible for:
 
