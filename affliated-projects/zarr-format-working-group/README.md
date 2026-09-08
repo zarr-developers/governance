@@ -81,7 +81,11 @@ The Working Group conducts its decision making asynchronously wherever practical
 
 ### Specification Decisions
 
-Changes to the specification are made through PRs in the zarr-specs repository. Anyone from the Community or the Working Group may open PRs. Merging PRs into the “main” branch requires approval from Members:
+Changes to the specification are made through PRs in the zarr-specs repository. Anyone from the Community or the Working Group may open PRs. Merging PRs into the “main” branch requires approval from Members. 
+
+Approval is conveyed via an approving comment on the PR, or the 👍 emoji, applied either to the PR body or a comment by the PR author scoped to measuring support. 
+
+Objection is conveyed by a "Request Changes" review from a Working Group member that states the basis for the objection and how to resolve it. Comments are not objections. An objections lapses if the author of the objection does not renew it after a response from the PR author.
 
 - If unanimous approval is reached, the PR may be merged right away.  
 - If at least 33% of Members approve the PR and there have been no objections raised by other Members for 2 weeks (starting from the first approval), the PR may be merged.  
