@@ -129,18 +129,35 @@ The following are Governance Decisions:
 * appointing or removing the Chair or Vice Chair; and  
 * adopting amendments to this charter.
 
-Amendments take effect following approval by the Zarr Steering Council, which verifies that they remain consistent with the Zarr Project Governance.
+Amendments are submitted to the Zarr Steering Council, which verifies that they remain consistent with the Zarr Project Governance. Amendments take effect once the Steering Council approves them, or 28 calendar days after submission if the Steering Council has neither approved nor objected within that period. If at least one Steering Council Member objects within that period, the amendment does not take effect and is returned to the Working Group.
 
 ## Formal Vote
 
-- A motion can be proposed by any Member in a Github issue (by tagging the Working Group (@zarr-developers/format-wg)) or by email (via mailing list), if it needs to be held in private.  
-- Members vote on the motion by a Github comment or by replying to the email.  
-- We allow two weeks for voting after a motion is proposed.  
-- If after two weeks a majority of Members has voted and all votes agree, the majority vote becomes the decision.  
-- If there are any disagreements within the initial two week voting period, a further two weeks will be allowed to try and reach consensus.  
-- If after 4 weeks there is no consensus, the majority vote becomes the decision.
+Any Member may propose a motion in a GitHub issue, tagging [@zarr-developers/format-wg](https://github.com/orgs/zarr-developers/teams/format-wg). Sensitive matters may be proposed on the Working Group’s private mailing list.
+
+The motion must state the exact decision proposed, link to a specific revision of any document being approved, and specify the voting deadlines. The initial voting period is 14 calendar days, with a final deadline 28 calendar days after the motion is proposed.
+
+The eligible electorate consists of Working Group Members when voting opens, excluding Members recused from the decision. A Member whose removal is proposed is automatically recused. The electorate remains fixed throughout the vote. Any necessary change to recusals requires restarting the vote with an updated electorate.
+
+Each eligible Member may vote "Yes", "No", or "Abstain" by commenting on the issue or replying to the email. Members may change their votes until voting closes; their latest explicit vote counts. A Member who does not vote is counted as abstaining.
+
+A majority means more than half of the Yes and No votes cast. Abstentions, whether explicit or by silence, do not count towards the majority. A motion on which no Yes and no No votes are cast is not adopted. If there are no eligible Members, the matter must be referred to the Zarr Steering Council.
+
+Voting closes as soon as every eligible Member has explicitly voted, without waiting for the deadlines. The motion is then adopted if a majority has voted Yes, and otherwise not adopted.
+
+Otherwise, at the end of the initial 14-day period:
+- If more than half of the eligible Members have voted Yes and nobody has voted No, the motion is adopted.
+- If more than half of the eligible Members have voted No and nobody has voted Yes, the motion is rejected.
+- Otherwise, voting remains open until the final deadline, allowing further discussion and attempts to reach consensus.
+
+At the final 28-day deadline, the motion is adopted if a majority has voted Yes. Otherwise, it is not adopted. The record must distinguish majority opposition, a tie, and the absence of any Yes or No votes. The vote does not remain open indefinitely.
+
+The motion’s text and referenced revision must remain unchanged during voting. A substantive amendment requires a new motion and a fresh voting period. The proposer may withdraw the motion; withdrawal must be recorded.
+
+The Chair, Vice Chair, or proposing Member must record the outcome within three calendar days of voting closing, including the eligible electorate, vote totals, and a brief rationale addressing significant objections. The outcome takes effect when voting closes, subject to any additional approval expressly required by this charter. For private votes, a public summary must be provided to the extent consistent with confidentiality.
 
 ## Code of Conduct
 
 The Working Group operates under the [Zarr Project Code of Conduct](../CODE_OF_CONDUCT.md). All participants are expected to contribute respectfully and constructively.
+
 
