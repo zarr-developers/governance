@@ -37,19 +37,22 @@ _*: denotes a member of the Zarr Steering Council_
 
 The Working Group is responsible for:
 
-* maintaining the [Zarr Format Specification](http://github.com/zarr-developers/zarr-specs/) including the [Zarr Extensions Registry](https://github.com/zarr-developers/zarr-extensions/);  
-* evaluating proposals to modify the specification;  
-* making decisions regarding the evolution of the specification;  
-* documenting significant decisions and their rationale;  
-* considering the impact of decisions on the broader Zarr ecosystem, including implementers, downstream users, and interoperability;  
-* coordinating with implementers and the wider community;  
-* approving Zarr Extensions;  
-* approving and publishing new releases of the Zarr Format Specification.
+ * maintaining the [Zarr Format Specification](http://github.com/zarr-developers/zarr-specs/) including the [Zarr Extensions Registry](https://github.com/zarr-developers/zarr-extensions/);  
+ * evaluating proposals to modify the specification;  
+ * making decisions regarding the evolution of the specification;  
+ * documenting significant decisions and their rationale;  
+ * considering the impact of decisions on the broader Zarr ecosystem, including implementers, downstream users, and interoperability;  
+ * coordinating with implementers and the wider community;  
+ * approving Zarr Extensions;  
+ * approving and publishing new releases of the Zarr Format Specification.
+
 The Working Group has administrative privileges over the following resources:
- * the [`@zarr-developers/zarr-specs`](https://github.com/zarr-developers/zarr-specs) GitHub repository
- * the [`@zarr-developers/zarr-extensions`](https://github.com/zarr-developers/zarr-extensions) GitHub repository
- * the [site hosting the published specification](https://zarr-specs.readthedocs.io).
- * the [`@zarr-developers/format-wg`](https://github.com/orgs/zarr-developers/teams/format-wg) GitHub team 
+ * the [`@zarr-developers/zarr-specs`](https://github.com/zarr-developers/zarr-specs) GitHub repository;  
+ * the [`@zarr-developers/zarr-extensions`](https://github.com/zarr-developers/zarr-extensions) GitHub repository;  
+ * the [site hosting the published specification](https://zarr-specs.readthedocs.io);
+ * the [`@zarr-developers/format-wg`](https://github.com/orgs/zarr-developers/teams/format-wg) GitHub team;  
+ * the Working Group's private mailing list `format-wg@zarr.dev`.
+  
 ### Chair
 
 The Working Group may appoint a Chair and Vice Chair from among its Members through a Formal Vote (see below).
@@ -135,7 +138,7 @@ Amendments are submitted to the Zarr Steering Council, which verifies that they 
 
 **Proposing a motion**
 
-- Any Member may propose a motion in a GitHub issue, tagging [@zarr-developers/format-wg](https://github.com/orgs/zarr-developers/teams/format-wg). Sensitive matters may be proposed on the Working Group’s private mailing list.
+- Any Member may propose a motion in a GitHub issue, tagging [@zarr-developers/format-wg](https://github.com/orgs/zarr-developers/teams/format-wg). Sensitive matters may be proposed on the Working Group’s private mailing list (`format-wg@zarr.dev`).
 - The motion must state the exact decision proposed, link to a specific revision of any document being approved, and specify the voting deadlines: an initial period of 14 calendar days and a final deadline 28 calendar days after the motion is proposed.
 - The motion’s text and referenced revision must not change during voting. A substantive amendment requires a new motion and a fresh voting period. The proposer may withdraw the motion; withdrawal must be recorded.
 
