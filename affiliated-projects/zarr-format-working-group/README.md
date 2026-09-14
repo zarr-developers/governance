@@ -91,7 +91,7 @@ Approval is conveyed via an approving comment on the PR, or the 👍 emoji, appl
 Objection is conveyed by a "Request Changes" review from a Working Group member that states the basis for the objection and how to resolve it. Comments are not objections.
 
 - If unanimous approval is reached, the PR may be merged right away.  
-- If at least 33% of Members approve the PR and there have been no objections raised by other Members for 2 weeks (starting from the first approval), the PR may be merged.  
+- If at least one third of Members approve the PR and there have been no objections raised by other Members for 2 weeks (starting from the first approval), the PR may be merged.  
 - If there remain objections after 2 weeks, the discussion should be extended or a Formal Vote may be called.
 
 Please note that creating specification releases or amending earlier specification releases require the procedure as described below.
