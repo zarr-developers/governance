@@ -37,7 +37,7 @@ _*: denotes a member of the Zarr Steering Council_
 
 The Working Group is responsible for:
 
- * maintaining the [Zarr Format Specification](http://github.com/zarr-developers/zarr-specs/) including the [Zarr Extensions Registry](https://github.com/zarr-developers/zarr-extensions/);  
+ * maintaining the [Zarr Format Specification](https://github.com/zarr-developers/zarr-specs/) including the [Zarr Extensions Registry](https://github.com/zarr-developers/zarr-extensions/);  
  * evaluating proposals to modify the specification;  
  * making decisions regarding the evolution of the specification;  
  * documenting significant decisions and their rationale;  
@@ -115,7 +115,7 @@ The procedure for creating a specification release or amending earlier specifica
 
 ### Extension Decisions
 
-The Working Group maintains the Zarr Extensions Registry. PRs for new extensions and updated extensions are reviewed by the Working Group based on the criteria specified in the Readme of the Github repository.
+The Working Group maintains the Zarr Extensions Registry. PRs for new extensions and updated extensions are reviewed by the Working Group based on the criteria specified in the README of the GitHub repository.
 
 Any Member can unilaterally approve and merge such PRs, if they believe the criteria are being met. However, there should be reasonable time (72h) left for other Members to raise concerns between opening and merging the PR.
 
