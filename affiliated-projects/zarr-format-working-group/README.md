@@ -8,7 +8,7 @@ The Working Group provides an open forum for proposing, discussing, reviewing, a
 
 The Working Group conducts its governance through open, asynchronous participation whenever practical, enabling broad participation across time zones and organizations.
 
-This charter establishes the responsibilities, membership, and guiding principles of the Working Group. The detailed procedures used to evaluate proposals and make decisions are maintained separately and may evolve over time, provided they remain consistent with this charter and the Zarr Project Governance.
+This charter establishes the responsibilities, membership, and guiding principles of the Working Group including detailed procedures used to evaluate proposals and make decisions.
 
 ## Roles and Responsibilities
 
