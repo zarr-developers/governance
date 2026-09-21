@@ -86,7 +86,7 @@ The Working Group conducts its decision making asynchronously wherever practical
 
 Changes to the specification are made through PRs in the zarr-specs repository. Anyone from the Community or the Working Group may open PRs. Merging PRs into the “main” branch requires approval from Members. 
 
-Approval is conveyed via an approving comment on the PR, or the 👍 emoji, applied either to the PR body or a comment by the PR author scoped to measuring support. 
+Approval is conveyed via an approving comment on the PR applied either to the PR body or a comment by the PR author scoped to measuring support. 
 
 Objection is conveyed by a "Request Changes" review from a Working Group member that states the basis for the objection and how to resolve it. Comments are not objections.
 
@@ -156,7 +156,7 @@ Amendments are submitted to the Zarr Steering Council, which verifies that they 
 
 **Outcome**
 
-- Voting closes early once every eligible Member has explicitly voted; the motion is then adopted if a majority has voted Yes.
+- Voting closes early once every eligible Member has explicitly voted; the motion is then adopted if more than half of the eligible Members have voted Yes.
 - After 14 days, the motion is adopted if more than half of the eligible Members have voted Yes and nobody has voted No, and rejected if more than half have voted No and nobody has voted Yes. Otherwise voting remains open until the final deadline for further discussion and attempts to reach consensus.
 - At the final 28-day deadline, the motion is adopted if a majority has voted Yes, and otherwise not adopted.
 - A motion on which no Yes and no No votes are cast is not adopted.
