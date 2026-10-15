@@ -129,7 +129,7 @@ The following decisions require a Formal Vote:
 * nominating a Core Developer to serve as Envoy to the ZFWG (the appointment itself additionally requires approval by the ZFWG); and
 * adopting amendments to this charter.
 
-Amendments take effect following approval by the Zarr Steering Council, which verifies that they remain consistent with the Zarr Project Governance.
+Amendments are submitted to the Zarr Steering Council, which verifies that they remain consistent with the Zarr Project Governance. Amendments take effect once the Steering Council approves them, or 28 calendar days after submission if the Steering Council has neither approved nor objected within that period. If at least one Steering Council Member objects within that period, the amendment does not take effect and is returned to the Core Developers.
 
 ## Formal Vote
 
