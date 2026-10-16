@@ -201,6 +201,11 @@ provided it remains within the accepted norms of community open-source.
 Projects are welcome to seek guidance on accepted governance from the ZSC as needed.
 The ZSC remains solely responsible for managing project affiliation status.
 
+Projects are free to publish their governance documents wherever they like.
+Keeping them in the project's own repository is fine, and the
+[zarr-developers/governance](https://github.com/zarr-developers/governance)
+repository is one option.
+
 All Affiliated Software Projects must adhere to the Zarr Project's
 [Code of Conduct](https://github.com/zarr-developers/.github/blob/main/CODE_OF_CONDUCT.md),
 which is a requirement for NumFOCUS fiscal sponsorship.
