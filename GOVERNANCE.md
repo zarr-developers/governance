@@ -83,11 +83,12 @@ The ZSC's responsibilities are:
    similar Zarr-owned resources) in order to ensure smooth operations and
    effective collaboration.
 5. Serve as the final escalation point for disputes that cannot be resolved
-   within an individual Affiliated Software Project or the Spec Committee.
+   within an individual Affiliated Software Project or the Zarr Format
+   Working Group.
 
 The ZSC does **not** have authority over the day-to-day decisions of individual
-Affiliated Software Projects or the Spec Committee, except as explicitly stated
-above.
+Affiliated Software Projects or the Zarr Format Working Group, except as
+explicitly stated above.
 
 Members of the steering council also have the "owner" role within the
 [zarr-developers GitHub organization](https://github.com/zarr-developers/)
@@ -143,34 +144,34 @@ Emeritus members:
 Emeritus status is a recognition of past service and does not carry any of
 the responsibilities or authority of active ZSC membership described above.
 
-## Tier 2: The Zarr Specification — Spec Committee
+## Tier 2: The Zarr Specification — Zarr Format Working Group
 
 The Zarr Specification is the focal point that brings together all Zarr
 implementations. Because it addresses the format of data at rest, decisions about the
 spec will persist for decades. Ensuring responsible and careful evolution of
 the spec, balancing the need for innovation with the need for stability, is
-the mandate of the Spec Committee.
+the mandate of the Zarr Format Working Group (ZFWG).
 
 ### Responsibilities
 
-The Spec Committee is responsible for:
+The ZFWG is responsible for:
 
 1. Managing changes to the Zarr core Specification.
 2. Maintaining the list of Zarr Extensions.
-3. Overseeing the ZEP process for specification changes.
+3. Making and documenting decisions on the evolution of the specification.
 
 ### Membership
 
-Initial membership of the Spec Committee was drawn from the members of both
+Initial membership of the ZFWG was drawn from the members of both
 the former ZSC and the former Zarr Implementation Council (ZIC). Members are
 encouraged to resign if they do not plan to actively participate. It is
-expected that the Spec Committee will contain members of the most active Zarr
+expected that the ZFWG will contain members of the most active Zarr
 implementations, including both Affiliated and Non-affiliated Software
 Projects.
 
 ### Self-Governance
 
-The Spec Committee is responsible for establishing and documenting its own
+The ZFWG is responsible for establishing and documenting its own
 operational governance model, including:
 
 * Decision-making procedures (e.g. voting mechanisms, quorum requirements,
@@ -178,8 +179,10 @@ operational governance model, including:
 * Membership criteria and review processes
 * Meeting cadence and participation expectations
 
-This governance model supersedes the approval processes previously defined in
-ZEP0 for core specification changes.
+This is documented in the [Zarr Format Working Group
+Charter](affiliated-projects/zarr-format-working-group/README.md), which
+supersedes the approval processes previously defined in ZEP0 for core
+specification changes.
 
 ## Tier 3: Affiliated Software Projects — Core Developers Groups
 
@@ -196,6 +199,11 @@ Projects are free to evolve and change their governance as they see fit,
 provided it remains within the accepted norms of community open-source.
 Projects are welcome to seek guidance on accepted governance from the ZSC as needed.
 The ZSC remains solely responsible for managing project affiliation status.
+
+Projects are free to publish their governance documents wherever they like.
+Keeping them in the project's own repository is fine, and the
+[zarr-developers/governance](https://github.com/zarr-developers/governance)
+repository is one option.
 
 All Affiliated Software Projects must adhere to the Zarr Project's
 [Code of Conduct](https://github.com/zarr-developers/.github/blob/main/CODE_OF_CONDUCT.md),
@@ -252,10 +260,9 @@ as follows:
 
 ## Specification Decisions
 
-Changes to the Zarr Specification follow the [ZEP](https://zarr.dev/zeps)
-process and are governed by the Spec Committee according to its own governance
-model. Please read [ZEP0000](https://zarr.dev/zeps/active/ZEP0000.html)
-for the general ZEP process.
+Changes to the Zarr Specification are governed by the Zarr Format Working
+Group according to the decision process documented in its
+[charter](affiliated-projects/zarr-format-working-group/README.md).
 
 ## Affiliated Project Decisions
 
