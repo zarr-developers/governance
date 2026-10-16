@@ -150,8 +150,7 @@ The Zarr Specification is the focal point that brings together all Zarr
 implementations. Because it addresses the format of data at rest, decisions about the
 spec will persist for decades. Ensuring responsible and careful evolution of
 the spec, balancing the need for innovation with the need for stability, is
-the mandate of the Zarr Format Working Group (ZFWG), formerly known as the
-Spec Committee.
+the mandate of the Zarr Format Working Group (ZFWG).
 
 ### Responsibilities
 
