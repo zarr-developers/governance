@@ -24,7 +24,8 @@ The Zarr ecosystem consists of the following entities:
    projects) which are part of the Zarr Project. These projects are eligible
    to receive funds via NumFOCUS and are subject to the overarching Project
    governance framework.
-   This list of affiliated projects may evolve over time.
+   The official list of affiliated projects is maintained on the Zarr website
+   at [zarr.dev/affiliated-projects](https://zarr.dev/affiliated-projects).
 4. **Non-Affiliated Software Projects** — Other software projects which
    implement Zarr or interact with it in some way, but are not under the
    umbrella of the Zarr Project. Non-affiliated projects are not eligible
@@ -200,10 +201,10 @@ provided it remains within the accepted norms of community open-source.
 Projects are welcome to seek guidance on accepted governance from the ZSC as needed.
 The ZSC remains solely responsible for managing project affiliation status.
 
-Projects are free to publish their governance documents wherever they like.
-Keeping them in the project's own repository is fine, and the
-[zarr-developers/governance](https://github.com/zarr-developers/governance)
-repository is one option.
+Each Affiliated Software Project must have a publicly visible governance
+document. Projects normally host their governance documents in their own repositories
+and may change them without approval from the ZSC. Adopting the default
+template as-is is fine.
 
 All Affiliated Software Projects must adhere to the Zarr Project's
 [Code of Conduct](https://github.com/zarr-developers/.github/blob/main/CODE_OF_CONDUCT.md),
@@ -218,6 +219,9 @@ including, but not limited to:
 2. Be directly related to Zarr (e.g. an implementation, tool, extension, or
    convention).
 3. Demonstrate a critical mass of sustained development activity.
+4. Have a publicly documented governance process (adopting the default
+   template in [AFFILIATED_PROJECT_GOVERNANCE.md](AFFILIATED_PROJECT_GOVERNANCE.md)
+   is fine).
 
 The ZSC will make decisions about affiliation based on these criteria and the
 overall strategic direction of the Project.
@@ -227,6 +231,29 @@ boundaries of this framework, with whatever governance (or lack thereof) they
 choose. Non-affiliated projects are not eligible for direct funding via
 NumFOCUS. We welcome and encourage all Zarr-related projects to become
 affiliated.
+
+## Affiliated Software Project Registry
+
+The official registry of Affiliated Software Projects is the
+[Affiliated Projects page](https://zarr.dev/affiliated-projects) on the Zarr
+website. Each entry lists the project's name, a short description, and links
+to its repository and documentation.
+
+The process for becoming an Affiliated Software Project is:
+
+1. The project publishes its governance document, normally in its own
+   repository.
+2. The project (or a ZSC member on its behalf) requests affiliation, e.g. via
+   an issue on the [governance repository](https://github.com/zarr-developers/governance/issues),
+   linking to its governance document.
+3. The ZSC decides on affiliation as a Project-Level Decision (see below).
+4. Once affiliation is approved, a pull request adds the project to the
+   registry on the Zarr website.
+   Because the decision has already been made, approval from a single ZSC
+   member is sufficient to merge it.
+
+Removing a project from the registry is likewise a Project-Level Decision
+of the ZSC.
 
 # Decision Making Process
 
