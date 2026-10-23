@@ -32,6 +32,8 @@ Current Members are:
 [Jeremy Maitin-Shepard](https://github.com/jbms) | [TensorStore](https://github.com/google/tensorstore) (C++, Python)
 [Lachlan Deakin](https://github.com/ldeakin) | [`zarrs`](https://github.com/zarrs/zarrs) (Rust)
 [Davis Bennett](https://github.com/d-v-b) | [`zarr`](https://github.com/zarr-developers/zarr-python) (Python) |
+[John Bogovic](https://github.com/bogovicj) | [`n5`](https://github.com/saalfeldlab/n5) (Java) |
+[Tom Nicholas](https://github.com/TomNicholas) | [`icechunk`](https://github.com/earth-mover/icechunk) (Rust, Python) and [`VirtualiZarr`](https://github.com/zarr-developers/VirtualiZarr) |
 
 _*: denotes a member of the Zarr Steering Council_
 
@@ -65,8 +67,8 @@ The Working Group is encouraged to rotate the Chair every year at the latest. Wh
 
 Current Chair and Vice Chair are:
 
-- Tbd (Chair)  
-- Tbd (Vice Chair)
+- [Norman Rzepka](https://github.com/normanrz) (Chair)  
+- [Josh Moore](https://github.com/joshmoore) (Vice Chair)
 
 ### Community
 
